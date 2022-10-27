@@ -16,6 +16,7 @@ import FinalGame from './final-game';
 import ExtraFinal from './extra-final';
 
 function findTheFinals(matches) {
+  console.log('matches', matches);
   const isFinalInUpper = matches.upper.some(match => !match.nextMatchId);
   const isFinalInLower = matches.lower.some(match => !match.nextMatchId);
   let convergingMatch;
@@ -24,48 +25,51 @@ function findTheFinals(matches) {
   if (isFinalInLower) {
     const lastUpper = matches.upper.find(match => {
       const hasNextMatchInUpper = matches.upper.some(
-        m => m.id === match.nextMatchId
+        m => m.code === match.nextMatchId,
       );
       return !hasNextMatchInUpper;
     });
+    // eslint-disable-next-line no-console
+    console.log(matches.lower);
     convergingMatch = matches.lower.find(
-      match => match.id === lastUpper.nextMatchId
+      match => match.code === lastUpper.nextMatchId,
     );
     finalsArray = [
       convergingMatch,
-      matches.lower.find(m => m.id === convergingMatch.nextMatchId),
-    ].filter(m => m?.id);
+      matches.lower.find(m => m.code === convergingMatch.nextMatchId),
+    ].filter(m => m?.code);
   }
   if (isFinalInUpper) {
     const lastLower = matches.lower.find(match => {
       const hasNextMatchInLower = matches.lower.some(
-        m => m.id === match.nextMatchId
+        m => m.code === match.nextMatchId,
       );
       return !hasNextMatchInLower;
     });
     convergingMatch = matches.upper.find(
-      match => match.id === lastLower.nextMatchId
+      match => match.code === lastLower.nextMatchId,
     );
     finalsArray = [
       convergingMatch,
-      matches.upper.find(m => m.id === convergingMatch.nextMatchId),
-    ].filter(m => m?.id);
+      matches.upper.find(m => m.code === convergingMatch.nextMatchId),
+    ].filter(m => m?.code);
   }
 
   return { convergingMatch, finalsArray };
 }
+
 const DoubleEliminationBracket = ({
-  matches,
-  matchComponent,
-  currentRound,
-  onMatchClick,
-  onPartyClick,
-  svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
-  theme = defaultTheme,
-  options: { style: inputStyle } = {
-    style: defaultStyle,
-  },
-}: DoubleElimLeaderboardProps) => {
+                                    matches,
+                                    matchComponent,
+                                    currentRound,
+                                    onMatchClick,
+                                    onPartyClick,
+                                    svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
+                                    theme = defaultTheme,
+                                    options: { style: inputStyle } = {
+                                      style: defaultStyle,
+                                    },
+                                  }: DoubleElimLeaderboardProps) => {
   const style = {
     ...defaultStyle,
     ...inputStyle,
@@ -90,7 +94,7 @@ const DoubleEliminationBracket = ({
   const generateColumn = (matchesColumn, listOfMatches) => {
     const previousMatchesColumn = generatePreviousRound(
       matchesColumn,
-      listOfMatches
+      listOfMatches,
     );
 
     if (previousMatchesColumn.length > 0) {
@@ -104,8 +108,8 @@ const DoubleEliminationBracket = ({
   const generate2DBracketArray = (final, listOfMatches) => {
     return final
       ? [...generateColumn([final], listOfMatches), []].filter(
-          arr => arr.length > 0
-        )
+        arr => arr.length > 0,
+      )
       : [];
   };
 
@@ -127,7 +131,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound
+    currentRound,
   );
   const lowerBracketDimensions = calculateSVGDimensions(
     lowerColumns[0].length,
@@ -136,7 +140,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound
+    currentRound,
   );
   const fullBracketDimensions = calculateSVGDimensions(
     lowerColumns[0].length,
@@ -145,7 +149,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound
+    currentRound,
   );
 
   const { gameWidth } = fullBracketDimensions;

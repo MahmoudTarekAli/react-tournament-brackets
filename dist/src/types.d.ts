@@ -11,13 +11,15 @@ export declare type Participant = {
         height: number | null;
         borderRadius?: number;
     } | null;
+    original?: any | null;
     [key: string]: any;
 };
 export declare type Match = {
     id: number | string;
+    code: string;
     href?: string;
     name?: string;
-    nextMatchId: number | null;
+    nextMatchId: string | null;
     nextLooserMatchId?: number;
     tournamentRoundText: string;
     startTime: string;

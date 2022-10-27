@@ -5,7 +5,7 @@ export const generatePreviousRound = (matchesColumn, listOfMatches) =>
     return [
       ...result,
       ...listOfMatches
-        .filter(m => m.nextMatchId === match.id)
+        .filter(m => m.nextMatchId === match.code)
         .sort((a, b) => sortAlphanumerically(a.name, b.name)),
     ];
   }, []);
@@ -25,11 +25,11 @@ export function getPreviousMatches(
 export function sortTeamsSeedOrder(previousBottomMatch: any): any {
   return (partyA, partyB) => {
     const partyAInBottomMatch = previousBottomMatch?.participants?.find(
-      p => p.id === partyA.id
+      p => p.code === partyA.code
     );
 
     const partyBInBottomMatch = previousBottomMatch?.participants?.find(
-      p => p.id === partyB.id
+      p => p.code === partyB.code
     );
 
     if (partyAInBottomMatch) {

@@ -48,7 +48,7 @@ const SingleEliminationBracket = ({
       return [
         ...result,
         ...matches
-          .filter(m => m.nextMatchId === match.id)
+          .filter(m => m.nextMatchId === match.code)
           .sort((a, b) => sortAlphanumerically(a.name, b.name)),
       ];
     }, []);

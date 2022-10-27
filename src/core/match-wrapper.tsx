@@ -5,20 +5,20 @@ import { defaultStyle, getCalculatedStyles } from '../settings';
 import { sortTeamsSeedOrder } from './match-functions';
 
 function Match({
-  rowIndex,
-  columnIndex,
-  match,
+                 rowIndex,
+                 columnIndex,
+                 match,
 
-  previousBottomMatch = null,
-  teams,
-  topText,
-  bottomText,
-  style = defaultStyle,
-  matchComponent: MatchComponent,
-  onMatchClick,
-  onPartyClick,
-  ...rest
-}) {
+                 previousBottomMatch = null,
+                 teams,
+                 topText,
+                 bottomText,
+                 style = defaultStyle,
+                 matchComponent: MatchComponent,
+                 onMatchClick,
+                 onPartyClick,
+                 ...rest
+               }) {
   const {
     state: { hoveredPartyId },
     dispatch,
@@ -32,17 +32,17 @@ function Match({
 
   const topHovered =
     !Number.isNaN(hoveredPartyId) &&
-    topParty?.id !== undefined &&
-    hoveredPartyId === topParty.id;
+    topParty?.code !== undefined &&
+    hoveredPartyId === topParty.code;
   const bottomHovered =
     !Number.isNaN(hoveredPartyId) &&
-    bottomParty?.id !== undefined &&
-    hoveredPartyId === bottomParty.id;
+    bottomParty?.code !== undefined &&
+    hoveredPartyId === bottomParty.code;
 
   const participantWalkedOver = participant =>
     match.state === MATCH_STATES.WALK_OVER &&
-    teams.filter(team => !!team.id).length < 2 &&
-    participant.id;
+    teams.filter(team => !!team.code).length < 2 &&
+    participant.code;
 
   // Lower placement is better
   const topWon =
@@ -88,7 +88,7 @@ function Match({
       type: 'SET_HOVERED_PARTYID',
       payload: {
         partyId,
-        matchId: match.id,
+        matchId: match.code,
         rowIndex,
         columnIndex,
       },

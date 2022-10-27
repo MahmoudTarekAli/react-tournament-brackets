@@ -64,7 +64,7 @@ export const CustomMatchBracket = () => {
           }}
         >
           <div
-            onMouseEnter={() => onMouseEnter(topParty.id)}
+            onMouseEnter={() => onMouseEnter(topParty.code)}
             style={{ display: 'flex' }}
           >
             <div>{topParty.name || teamNameFallback}</div>
@@ -74,7 +74,7 @@ export const CustomMatchBracket = () => {
             style={{ height: '1px', width: '100%', background: '#FF8C00' }}
           />
           <div
-            onMouseEnter={() => onMouseEnter(bottomParty.id)}
+            onMouseEnter={() => onMouseEnter(bottomParty.code)}
             style={{ display: 'flex' }}
           >
             <div>{bottomParty.name || teamNameFallback}</div>

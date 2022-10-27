@@ -18,6 +18,7 @@ export type Participant = {
     height: number | null;
     borderRadius?: number;
   } | null;
+  original?: any | null;
 
   [key: string]: any;
 };
@@ -25,13 +26,15 @@ export type Participant = {
 export type Match = {
   id: number | string;
 
+  code: string;
+
   /** Link to this match. While onClick() can be used, providing an href
-      better supports opening a new tab, or copying a link. **/
+   better supports opening a new tab, or copying a link. **/
   href?: string;
 
   name?: string;
 
-  nextMatchId: number | null;
+  nextMatchId: string | null;
 
   nextLooserMatchId?: number;
 
