@@ -32,17 +32,17 @@ function Match({
 
   const topHovered =
     !Number.isNaN(hoveredPartyId) &&
-    topParty?.code !== undefined &&
-    hoveredPartyId === topParty.code;
+    topParty?.original.id !== undefined &&
+    hoveredPartyId === topParty.original.id;
   const bottomHovered =
     !Number.isNaN(hoveredPartyId) &&
-    bottomParty?.code !== undefined &&
-    hoveredPartyId === bottomParty.code;
+    bottomParty?.original.id !== undefined &&
+    hoveredPartyId === bottomParty.original.id;
 
   const participantWalkedOver = participant =>
     match.state === MATCH_STATES.WALK_OVER &&
     teams.filter(team => !!team.code).length < 2 &&
-    participant.code;
+    participant.original.id;
 
   // Lower placement is better
   const topWon =

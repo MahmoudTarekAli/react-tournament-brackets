@@ -44,7 +44,7 @@ function Match({
       </div>
       <StyledMatch>
         <Side
-          onMouseEnter={() => onMouseEnter(topParty.code)}
+          onMouseEnter={() => onMouseEnter(topParty.original.id)}
           onMouseLeave={onMouseLeave}
           won={topWon}
           hovered={topHovered}
@@ -66,7 +66,7 @@ function Match({
         </Side>
         <Line highlighted={topHovered || bottomHovered} />
         <Side
-          onMouseEnter={() => onMouseEnter(bottomParty.code)}
+          onMouseEnter={() => onMouseEnter(bottomParty.original.id)}
           onMouseLeave={onMouseLeave}
           won={bottomWon}
           hovered={bottomHovered}
