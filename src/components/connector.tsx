@@ -63,7 +63,6 @@ const Connector = ({
     <>
       {previousTopMatchPosition && (
         <path
-          style={{width: '10px'}}
           d={pathInfo(-1).join(' ')}
           id={`connector-${x}-${y}-${-1}`}
           fill="transparent"
