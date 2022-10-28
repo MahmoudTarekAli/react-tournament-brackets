@@ -15,8 +15,6 @@ const MatchContextProvider = ({ children }) => {
       case 'SET_HOVERED_PARTYID': {
         const { partyId, columnIndex, rowIndex, matchId } =
           action.payload ?? {};
-        console.log(partyId, columnIndex, rowIndex, matchId)
-
         return {
           ...previousState,
           hoveredPartyId: partyId,

@@ -16,7 +16,6 @@ import FinalGame from './final-game';
 import ExtraFinal from './extra-final';
 
 function findTheFinals(matches) {
-  console.log('matches', matches);
   const isFinalInUpper = matches.upper.some(match => !match.nextMatchId);
   const isFinalInLower = matches.lower.some(match => !match.nextMatchId);
   let convergingMatch;
@@ -30,7 +29,6 @@ function findTheFinals(matches) {
       return !hasNextMatchInUpper;
     });
     // eslint-disable-next-line no-console
-    console.log(matches.lower);
     convergingMatch = matches.lower.find(
       match => match.code === lastUpper.nextMatchId,
     );
