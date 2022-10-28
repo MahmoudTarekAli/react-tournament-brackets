@@ -8,7 +8,6 @@ import {
   TopText,
   BottomText,
   Wrapper,
-  Line,
   Anchor,
 } from './styles';
 
@@ -50,21 +49,23 @@ function Match({
           hovered={topHovered}
           onClick={() => onPartyClick?.(topParty, topWon)}
         >
-          <img
-            src={topParty?.original?.avatar}
-            width={topParty?.image?.width ? topParty.image.width : 30}
-            height={topParty?.image?.height ? topParty.image.height : 30}
-            alt="icon"
-            style={{
-              borderRadius: topParty?.image?.borderRadius
-                ? topParty.image.borderRadius
-                : 10,
-            }}
-          />
-          <Team>{topParty?.original?.participant_name}</Team>
+          <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+            <img
+              src={topParty?.original?.avatar}
+              width={topParty?.image?.width ? topParty.image.width : 30}
+              height={topParty?.image?.height ? topParty.image.height : 30}
+              alt="icon"
+              style={{
+                borderRadius: topParty?.image?.borderRadius
+                  ? topParty.image.borderRadius
+                  : 10,
+              }}
+            />
+            <Team>{topParty?.original?.participant_name}</Team>
+          </div>
+
           <Score won={topWon}>{topParty?.score}</Score>
         </Side>
-        <Line highlighted={topHovered || bottomHovered} />
         <Side
           onMouseEnter={() => onMouseEnter(bottomParty.original.id)}
           onMouseLeave={onMouseLeave}
@@ -72,17 +73,22 @@ function Match({
           hovered={bottomHovered}
           onClick={() => onPartyClick?.(bottomParty, bottomWon)}
         >
-          <img
-            src={bottomParty?.original?.avatar}
-            width={bottomParty?.image?.width ? bottomParty.image.width : 30}
-            height={bottomParty?.image?.height ? bottomParty.image.height : 30}
-            style={{
-              borderRadius: bottomParty?.image?.borderRadius
-                ? bottomParty.image.borderRadius
-                : 10,
-            }}
-          />
-          <Team>{bottomParty?.original.participant_name}</Team>
+          <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+            <img
+              src={bottomParty?.original?.avatar}
+              width={bottomParty?.image?.width ? bottomParty.image.width : 30}
+              height={
+                bottomParty?.image?.height ? bottomParty.image.height : 30
+              }
+              style={{
+                borderRadius: bottomParty?.image?.borderRadius
+                  ? bottomParty.image.borderRadius
+                  : 10,
+              }}
+            />
+            <Team>{bottomParty?.original.participant_name}</Team>
+          </div>
+
           <Score won={bottomWon}>{bottomParty?.score}</Score>
         </Side>
       </StyledMatch>

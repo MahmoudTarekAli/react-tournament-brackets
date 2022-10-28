@@ -1,17 +1,17 @@
 import { createTheme } from './themes';
 
 const GlootTheme = createTheme({
-  textColor: { main: '#000000', highlighted: '#F4F2FE', dark: '#707582' },
-  matchBackground: { wonColor: '#2D2D59', lostColor: '#1B1D2D' },
+  textColor: { main: '#000000', highlighted: '#F4F2FE', dark: '#fff' },
+  matchBackground: { wonColor: '#8429f5', lostColor: '#8429f5' },
   score: {
     background: {
-      wonColor: `#10131C`,
-      lostColor: '#10131C',
+      wonColor: `#8429f5`,
+      lostColor: '#8429f5',
     },
     text: { highlightedWonColor: '#7BF59D', highlightedLostColor: '#FB7E94' },
   },
   border: {
-    color: '#292B43',
+    color: '#8429f5',
     highlightedColor: 'RGBA(152,82,242,0.4)',
   },
   roundHeader: { backgroundColor: '#3B3F73', fontColor: '#F4F2FE' },

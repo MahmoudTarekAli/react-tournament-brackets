@@ -7,8 +7,8 @@ const defaultTheme: Theme = {
 
   disabledColor: '#5D6371',
   matchBackground: {
-    wonColor: '#1D2232',
-    lostColor: '#141822',
+    wonColor: '#8429f5',
+    lostColor: '#341671',
   },
   border: {
     color: '#22293B',
@@ -22,7 +22,7 @@ const defaultTheme: Theme = {
   },
   score: {
     text: {
-      highlightedWonColor: '#118ADE',
+      highlightedWonColor: '#fff',
       highlightedLostColor: '#FF9505',
     },
     background: {

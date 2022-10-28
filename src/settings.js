@@ -1,6 +1,6 @@
 export const defaultStyle = {
   width: 300,
-  boxHeight: 114,
+  boxHeight: 170,
   canvasPadding: 25,
   spaceBetweenColumns: 50,
   spaceBetweenRows: 50,

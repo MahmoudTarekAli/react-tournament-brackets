@@ -19,7 +19,6 @@ const Connector = ({
     connectorColorHighlight,
     width,
   } = getCalculatedStyles(style);
-
   const pathInfo = multiplier => {
     const middlePointOfMatchComponent = boxHeight / 2;
     const previousMatch =
@@ -41,7 +40,7 @@ const Connector = ({
       previousMatch.y +
       middlePointOfMatchComponent +
       (roundHeader.isShown ? roundHeader.height + roundHeader.marginBottom : 0);
-    const horizontalWidthRight = previousMatch.x + width;
+    const horizontalWidthRight = previousMatch.x + width + 2;
 
     if (isPreviousMatchOnSameYLevel) {
       return [`M${startPoint}`, `H${horizontalWidthRight}`];
@@ -64,6 +63,7 @@ const Connector = ({
     <>
       {previousTopMatchPosition && (
         <path
+          style={{width: '10px'}}
           d={pathInfo(-1).join(' ')}
           id={`connector-${x}-${y}-${-1}`}
           fill="transparent"
