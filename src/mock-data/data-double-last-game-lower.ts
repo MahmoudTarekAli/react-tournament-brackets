@@ -12,14 +12,14 @@ export default {
         {
           "id": "ddfee063-adde-4192-95d2-203eb2ebb8f7",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "WALK_OVER",
           "name": "#1"
         },
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "--------------"
         }
@@ -37,14 +37,14 @@ export default {
         {
           "id": "b4ecc604-1248-4265-895a-af918e27b6ff",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#5"
         },
         {
           "id": "19abab76-3c82-40e9-a334-4f57cb81bd08",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#4"
         }
@@ -62,14 +62,14 @@ export default {
         {
           "id": "ef66d820-1e28-4ef6-81e6-0835b2df5236",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#3"
         },
         {
           "id": "4c07d93a-f7e9-4b84-bda3-27c08c689f90",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#6"
         }
@@ -87,14 +87,14 @@ export default {
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "--------------"
         },
         {
           "id": "4a05a091-f7b6-4a9a-b6eb-b7ff8ea6dc87",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "WALK_OVER",
           "name": "#2"
         }
@@ -112,14 +112,14 @@ export default {
         {
           "id": "ddfee063-adde-4192-95d2-203eb2ebb8f7",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#1"
         },
         {
           "id": "b4ecc604-1248-4265-895a-af918e27b6ff",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#5"
         }
@@ -137,14 +137,14 @@ export default {
         {
           "id": "ef66d820-1e28-4ef6-81e6-0835b2df5236",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#3"
         },
         {
           "id": "4a05a091-f7b6-4a9a-b6eb-b7ff8ea6dc87",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#2"
         }
@@ -162,14 +162,14 @@ export default {
         {
           "id": "ddfee063-adde-4192-95d2-203eb2ebb8f7",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#1"
         },
         {
           "id": "ef66d820-1e28-4ef6-81e6-0835b2df5236",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#3"
         }
@@ -189,14 +189,14 @@ export default {
         {
           "id": "19abab76-3c82-40e9-a334-4f57cb81bd08",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "WALK_OVER",
           "name": "#4"
         },
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "--------------"
         }
@@ -214,14 +214,14 @@ export default {
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "--------------"
         },
         {
           "id": "4c07d93a-f7e9-4b84-bda3-27c08c689f90",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "WALK_OVER",
           "name": "#6"
         }
@@ -239,14 +239,14 @@ export default {
         {
           "id": "4a05a091-f7b6-4a9a-b6eb-b7ff8ea6dc87",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#2"
         },
         {
           "id": "19abab76-3c82-40e9-a334-4f57cb81bd08",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#4"
         }
@@ -264,14 +264,14 @@ export default {
         {
           "id": "b4ecc604-1248-4265-895a-af918e27b6ff",
           "resultText": "",
-          "isWinner": true,
+          "is_winner": true,
           "status": "PLAYED",
           "name": "#5"
         },
         {
           "id": "4c07d93a-f7e9-4b84-bda3-27c08c689f90",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#6"
         }
@@ -289,14 +289,14 @@ export default {
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "TBD"
         },
         {
           "id": "b4ecc604-1248-4265-895a-af918e27b6ff",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#5"
         }
@@ -314,14 +314,14 @@ export default {
         {
           "id": "ef66d820-1e28-4ef6-81e6-0835b2df5236",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#3"
         },
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "TBD"
         }
@@ -339,14 +339,14 @@ export default {
         {
           "id": "ddfee063-adde-4192-95d2-203eb2ebb8f7",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#1"
         },
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "TBD"
         }
@@ -364,14 +364,14 @@ export default {
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "TBD"
         },
         {
           "id": null,
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": null,
           "name": "TBD"
         }

@@ -5,20 +5,20 @@ import { defaultStyle, getCalculatedStyles } from '../settings';
 import { sortTeamsSeedOrder } from './match-functions';
 
 function Match({
-                 rowIndex,
-                 columnIndex,
-                 match,
+  rowIndex,
+  columnIndex,
+  match,
 
-                 previousBottomMatch = null,
-                 teams,
-                 topText,
-                 bottomText,
-                 style = defaultStyle,
-                 matchComponent: MatchComponent,
-                 onMatchClick,
-                 onPartyClick,
-                 ...rest
-               }) {
+  previousBottomMatch = null,
+  teams,
+  topText,
+  bottomText,
+  style = defaultStyle,
+  matchComponent: MatchComponent,
+  onMatchClick,
+  onPartyClick,
+  ...rest
+}) {
   const {
     state: { hoveredPartyId },
     dispatch,
@@ -48,11 +48,11 @@ function Match({
   const topWon =
     topParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(topParty) ||
-    topParty.isWinner;
+    topParty.is_winner;
   const bottomWon =
     bottomParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(bottomParty) ||
-    bottomParty.isWinner;
+    bottomParty.is_winner;
 
   const matchState = MATCH_STATES[match.state];
 

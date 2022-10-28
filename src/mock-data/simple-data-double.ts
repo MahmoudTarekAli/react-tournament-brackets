@@ -12,7 +12,7 @@
 //         {
 //           id: '5a2188a4-5e8b-4489-96ba-0140b4342cfd',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -39,7 +39,7 @@
 //         {
 //           id: '8cfbe1b3-090e-4665-82bb-aff37bebb6f4',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -56,7 +56,7 @@
 //         {
 //           id: '2ff0c36b-3acc-4c21-90c4-6eeec34e7828',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -83,7 +83,7 @@
 //         {
 //           id: '8cfbe1b3-090e-4665-82bb-aff37bebb6f4',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -110,7 +110,7 @@
 //         {
 //           id: '781e48d6-2c4d-496d-92e8-6385ea9a7782',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -127,13 +127,13 @@
 //         {
 //           id: 'c08a1b93-ada2-45b2-8825-f268f167b040',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: 'b5cd08d2-1596-4c08-9851-75b4f4de7f60',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -160,13 +160,13 @@
 //         {
 //           id: '0ea06043-7293-4fff-a147-9e47514b6156',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '3f7494da-29bb-4594-8a29-7a73080521b5',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -183,7 +183,7 @@
 //         {
 //           id: '5a2188a4-5e8b-4489-96ba-0140b4342cfd',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -200,13 +200,13 @@
 //         {
 //           id: 'a601f9ee-1efd-4542-94ab-e62beb690884',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '0df5a720-27cd-4ab7-a9b2-1682ac4efe3d',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -223,13 +223,13 @@
 //         {
 //           id: 'ea7cc04f-aa82-4072-a7c8-397ea3badd6b',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '6a602af0-5425-46fd-a3eb-f4d4559717d4',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -246,13 +246,13 @@
 //         {
 //           id: 'd9edef7d-747f-4516-8dc0-667a2d923785',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: 'c3116829-63bf-4dfb-8b77-9925eea7a988',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -269,13 +269,13 @@
 //         {
 //           id: '59c63115-d023-46b7-803b-c95d2b03c802',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: 'ea43f65a-81ab-4aea-a945-c7bda5ce87e6',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -292,13 +292,13 @@
 //         {
 //           id: '61da8bf1-9e6f-4435-b8f5-662c3e28b771',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: 'e37b4d05-d5c6-4561-bac6-9c8c9a0611cd',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -325,13 +325,13 @@
 //         {
 //           id: '6c16a503-6577-4f67-9264-935b4dcd5247',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '2f9dddd8-eb61-4d73-a34b-a5ba7c6c8311',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -348,13 +348,13 @@
 //         {
 //           id: '8d4037de-aeb0-4c04-a0b4-868560561d78',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '827f34e6-9964-4038-b4a4-663016f18f02',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -371,13 +371,13 @@
 //         {
 //           id: '0b2ce314-e4ed-4abf-9050-69d51a45e0d7',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //         {
 //           id: '7c44871a-fbdd-4861-a690-600ddb427d51',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -404,7 +404,7 @@
 //         {
 //           id: '6a602af0-5425-46fd-a3eb-f4d4559717d4',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -431,7 +431,7 @@
 //         {
 //           id: '2ff0c36b-3acc-4c21-90c4-6eeec34e7828',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -448,7 +448,7 @@
 //         {
 //           id: '781e48d6-2c4d-496d-92e8-6385ea9a7782',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -475,7 +475,7 @@
 //         {
 //           id: '59c63115-d023-46b7-803b-c95d2b03c802',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -502,7 +502,7 @@
 //         {
 //           id: 'ea7cc04f-aa82-4072-a7c8-397ea3badd6b',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -529,7 +529,7 @@
 //         {
 //           id: 'ea43f65a-81ab-4aea-a945-c7bda5ce87e6',
 //           resultText: null,
-//           isWinner: false,
+//           is_winner: false,
 //           status: null,
 //         },
 //       ],
@@ -615,8 +615,8 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {
@@ -628,8 +628,8 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {
@@ -641,7 +641,7 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {
@@ -663,7 +663,7 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {
@@ -715,7 +715,7 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {
@@ -757,7 +757,7 @@
 //       startTime: null,
 //       state: 'SCHEDULED',
 //       participants: [
-//         { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+//         { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
 //       ],
 //     },
 //     {

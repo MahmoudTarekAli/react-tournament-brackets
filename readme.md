@@ -167,14 +167,14 @@ _For more examples, please refer to the [Storybook][demo-url]_
       {
         "id": "c016cb2a-fdd9-4c40-a81f-0cc6bdf4b9cc", // Unique identifier of any kind
         "resultText": "WON", // Any string works
-        "isWinner": false,
+        "is_winner": false,
         "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | null
         "name": "giacomo123"
       },
       {
         "id": "9ea9ce1a-4794-4553-856c-9a3620c0531b",
         "resultText": null,
-        "isWinner": true,
+        "is_winner": true,
         "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY'
         "name": "Ant"
       }
@@ -200,14 +200,14 @@ _For more examples, please refer to the [Storybook][demo-url]_
         {
           "id": "c016cb2a-fdd9-4c40-a81f-0cc6bdf4b9cc", // Unique identifier of any kind
           "resultText": "WON", // Any string works
-          "isWinner": false,
+          "is_winner": false,
           "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | null
           "name": "giacomo123"
         },
         {
           "id": "9ea9ce1a-4794-4553-856c-9a3620c0531b",
           "resultText": "LOST", // Any string works
-          "isWinner": true,
+          "is_winner": true,
           "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY'
           "name": "Ant"
         }
@@ -229,14 +229,14 @@ _For more examples, please refer to the [Storybook][demo-url]_
         {
           "id": "c016cb2a-fdd9-4c40-a81f-0cc6bdf4b9cc", // Unique identifier of any kind
           "resultText": "WON", // Any string works
-          "isWinner": false,
+          "is_winner": false,
           "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | null
           "name": "giacomo123"
         },
         {
           "id": "9ea9ce1a-4794-4553-856c-9a3620c0531b",
           "resultText": null,
-          "isWinner": true,
+          "is_winner": true,
           "status": null, // 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY'
           "name": "Ant"
         }
@@ -263,7 +263,7 @@ _For more examples, please refer to the [Storybook][demo-url]_
         {
           "id": "ddfee063-adde-4192-95d2-203eb2ebb8f7",
           "resultText": "",
-          "isWinner": false,
+          "is_winner": false,
           "status": "PLAYED",
           "name": "#1"
         }

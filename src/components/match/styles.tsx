@@ -52,13 +52,13 @@ interface SideProps {
 
 export const Side = styled.div<SideProps>`
   display: flex;
-  height: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 10px;
+  height: 50px;
   border-radius: 6px !important;
   background: ${({ theme, won }: any) =>
-          won ? theme.matchBackground.wonColor : theme.matchBackground.lostColor};
+    won ? theme.matchBackground.wonColor : theme.matchBackground.lostColor};
 
   :first-of-type {
     border-top-right-radius: 0px;
@@ -81,29 +81,29 @@ export const Side = styled.div<SideProps>`
 
   ${Team} {
     color: ${({ theme, won }: any) =>
-            won ? theme.textColor.highlighted : theme.textColor.dark};
+      won ? theme.textColor.highlighted : theme.textColor.dark};
   }
 
   ${Score} {
     color: ${({ theme, won }: any) =>
-            won ? theme.textColor.highlighted : theme.textColor.dark};
+      won ? theme.textColor.highlighted : theme.textColor.dark};
   }
 
   ${({ hovered, theme, won }: any) =>
-          hovered &&
-          css`
-            border-color: ${theme.border.highlightedColor};
+    hovered &&
+    css`
+      border-color: ${theme.border.highlightedColor};
 
-            ${Team} {
-              color: ${theme.textColor.highlighted};
-            }
+      ${Team} {
+        color: ${theme.textColor.highlighted};
+      }
 
-            ${Score} {
-              color: ${won
-                      ? theme.score.text.highlightedWonColor
-                      : theme.score.text.highlightedLostColor};
-            }
-          `}
+      ${Score} {
+        color: ${won
+          ? theme.score.text.highlightedWonColor
+          : theme.score.text.highlightedLostColor};
+      }
+    `}
 `;
 
 interface LineProps {
@@ -117,12 +117,12 @@ export const Line = styled.div<LineProps>`
   border-width: 1px;
   border-style: solid;
   border-color: ${({ highlighted, theme }: any) =>
-          highlighted ? theme.border.highlightedColor : theme.border.color};
+    highlighted ? theme.border.highlightedColor : theme.border.color};
 `;
 
 export const Anchor = styled.a`
   font-family: ${(props: any) =>
-          props.font ? props.font : props.theme.fontFamily};
+    props.font ? props.font : props.theme.fontFamily};
   font-weight: ${(props: any) => (props.bold ? '700' : '400')};
   color: ${(props: any) => props.theme.textColor.main};
   font-size: ${(props: any) => (props.size ? props.size : '1rem')};

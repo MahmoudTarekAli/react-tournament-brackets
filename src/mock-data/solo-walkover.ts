@@ -11,14 +11,14 @@ export default [
       {
         id: '9fd1f0e6-eb92-4159-a96d-6657fbdd963e',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: 'NO_SHOW',
         name: 'GlootOne',
       },
       {
         id: '1d11ce35-de11-49de-b48e-cec5427eb82c',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: 'NO_SHOW',
         name: 'Alex',
       },
@@ -36,14 +36,14 @@ export default [
       {
         id: '1d11ce35-de11-49de-b48e-cec5427eb82c',
         resultText: '1',
-        isWinner: true,
+        is_winner: true,
         status: 'PLAYED',
         name: 'Alex',
       },
       {
         id: 'a504c49a-e9b2-4a2e-b4b8-a2c11651c356',
         resultText: '0',
-        isWinner: false,
+        is_winner: false,
         status: 'PLAYED',
         name: 'BTC',
       },
@@ -61,7 +61,7 @@ export default [
       {
         id: '9fd1f0e6-eb92-4159-a96d-6657fbdd963e',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: null,
         name: 'GlootOne',
       },
@@ -79,14 +79,14 @@ export default [
       {
         id: 'b9a3cc7a-95d9-483a-b515-f24bd0531f45',
         resultText: null,
-        isWinner: true,
+        is_winner: true,
         status: 'WALKOVER',
         name: 'spacefudg3',
       },
       {
         id: '7535778a-24db-423f-928b-ca237cff67fc',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: 'NO_SHOW',
         name: 'SeatloN',
       },
@@ -104,7 +104,7 @@ export default [
       {
         id: 'b9a3cc7a-95d9-483a-b515-f24bd0531f45',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: null,
         name: 'spacefudg3',
       },
@@ -122,7 +122,7 @@ export default [
       {
         id: '7535778a-24db-423f-928b-ca237cff67fc',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: null,
         name: 'SeatloN',
       },
@@ -140,11 +140,11 @@ export default [
       {
         id: 'b9a3cc7a-95d9-483a-b515-f24bd0531f45',
         resultText: null,
-        isWinner: false,
+        is_winner: false,
         status: null,
         name: 'spacefudg3',
       },
-      { id: null, resultText: null, isWinner: false, status: 'NO_PARTY' },
+      { id: null, resultText: null, is_winner: false, status: 'NO_PARTY' },
     ],
   },
 ];

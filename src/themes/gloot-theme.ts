@@ -11,7 +11,7 @@ const GlootTheme = createTheme({
     text: { highlightedWonColor: '#7BF59D', highlightedLostColor: '#FB7E94' },
   },
   border: {
-    color: '#8429f5',
+    color: '#8429f5', 
     highlightedColor: 'RGBA(152,82,242,0.4)',
   },
   roundHeader: { backgroundColor: '#3B3F73', fontColor: '#F4F2FE' },

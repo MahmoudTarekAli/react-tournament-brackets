@@ -4,7 +4,7 @@ import React, { ReactElement } from 'react';
 export type Participant = {
   id: string | number;
 
-  isWinner: boolean;
+  is_winner: boolean;
 
   name?: string;
 

@@ -10,7 +10,7 @@ declare const _default: {
         participants: {
             id: string;
             resultText: string;
-            isWinner: boolean;
+            is_winner: boolean;
             status: string;
             name: string;
         }[];
@@ -26,7 +26,7 @@ declare const _default: {
         participants: {
             id: string;
             resultText: string;
-            isWinner: boolean;
+            is_winner: boolean;
             status: string;
             name: string;
         }[];
@@ -41,7 +41,7 @@ declare const _default: {
         participants: {
             id: string;
             resultText: string;
-            isWinner: boolean;
+            is_winner: boolean;
             status: string;
             name: string;
         }[];

@@ -15,7 +15,9 @@ const useMatchHighlightContext = ({ bracketSnippet = null }) => {
 
   const bottomHighlighted =
     currentMatch?.participants?.some(p => p.original.id === hoveredPartyId) &&
-    previousBottomMatch?.participants?.some(p => p.original.id === hoveredPartyId);
+    previousBottomMatch?.participants?.some(
+      p => p.original.id === hoveredPartyId
+    );
   return { topHighlighted, bottomHighlighted };
 };
 

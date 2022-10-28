@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 export declare type Participant = {
     id: string | number;
-    isWinner: boolean;
+    is_winner: boolean;
     name?: string;
     status?: 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | string | null;
     resultText?: string | null;

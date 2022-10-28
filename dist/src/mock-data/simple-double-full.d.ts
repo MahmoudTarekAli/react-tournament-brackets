@@ -25,7 +25,7 @@ declare const _default: {
             match_id: number;
             side: string;
             score: number;
-            isWinner: boolean;
+            is_winner: boolean;
             original: {
                 id: number;
                 country: string;
@@ -64,7 +64,7 @@ declare const _default: {
             match_id: number;
             side: string;
             score: number;
-            isWinner: boolean;
+            is_winner: boolean;
             original: {
                 id: number;
                 country: string;

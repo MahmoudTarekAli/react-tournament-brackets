@@ -63,6 +63,7 @@ const Connector = ({
     <>
       {previousTopMatchPosition && (
         <path
+          strokeWidth="2"
           d={pathInfo(-1).join(' ')}
           id={`connector-${x}-${y}-${-1}`}
           fill="transparent"
@@ -71,6 +72,7 @@ const Connector = ({
       )}
       {previousBottomMatchPosition && (
         <path
+          strokeWidth="2"
           d={pathInfo(1).join(' ')}
           id={`connector-${x}-${y}-${1}`}
           fill="transparent"

@@ -9,13 +9,13 @@ export declare const walkOverData: {
     participants: ({
         id: string;
         resultText: string;
-        isWinner: boolean;
+        is_winner: boolean;
         status: string;
         name: string;
     } | {
         id: string;
         resultText: string;
-        isWinner: boolean;
+        is_winner: boolean;
         status: string;
         name?: undefined;
     })[];
@@ -29,7 +29,7 @@ export declare const simpleSmallBracket: {
     participants: {
         id: string;
         resultText: string;
-        isWinner: boolean;
+        is_winner: boolean;
         status: string;
         name: string;
         picture: string;
@@ -46,7 +46,7 @@ export declare const simpleBracket: {
     participants: {
         id: string;
         resultText: string;
-        isWinner: boolean;
+        is_winner: boolean;
         status: string;
         name: string;
         picture: string;
