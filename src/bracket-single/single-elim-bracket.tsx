@@ -64,6 +64,7 @@ const SingleEliminationBracket = ({
   };
   const columns = generate2DBracketArray(lastGame);
   columns[columns.length - 1].push(third);
+  console.log(matches)
   // [
   //   [ First column ]
   //   [ 2nd column ]

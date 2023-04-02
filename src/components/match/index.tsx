@@ -29,7 +29,7 @@ function Match({
   return (
     <Wrapper>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <TopText>{topText}</TopText>
+        {match.order === 2 && !match.nextMatchId ? <TopText style={{ color: '#CD7F32' }}>{'3rd/4th Match'}</TopText> : <TopText>#{match?.match_no}</TopText>}
         {(match.href || typeof onMatchClick === 'function') && (
           <Anchor
             href={match.href}
