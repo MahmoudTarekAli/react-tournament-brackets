@@ -3,15 +3,16 @@ import RoundHeader from 'Components/round-header';
 import { calculatePositionOfMatchLowerBracket } from './calculate-match-position';
 
 const RoundHeaders = ({
-  numOfRounds,
-  calculatedStyles: {
-    canvasPadding,
-    columnWidth,
-    rowHeight,
-    roundHeader,
-    width,
-  },
-}) => {
+                        numOfRounds,
+                        calculatedStyles: {
+                          canvasPadding,
+                          columnWidth,
+                          rowHeight,
+                          roundHeader,
+                          width,
+
+                        },
+                      }) => {
   return (
     <>
       {[...new Array(numOfRounds)].map((matchesColumn, columnIndex) => {
@@ -32,6 +33,8 @@ const RoundHeaders = ({
                 numOfRounds={numOfRounds}
                 tournamentRoundText={columnIndex + 1}
                 columnIndex={columnIndex}
+                matchesColumn={columnIndex}
+                isDouble
               />
             )}
           </>

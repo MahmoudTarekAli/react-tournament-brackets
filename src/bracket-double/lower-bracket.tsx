@@ -77,6 +77,8 @@ const LowerBracket = ({
               onPartyClick={onPartyClick}
               style={calculatedStyles}
               matchComponent={matchComponent}
+              matchesColumn={matchesColumn}
+
             />
           </g>
         </>

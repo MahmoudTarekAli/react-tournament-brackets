@@ -24,13 +24,13 @@ function findTheFinals(matches) {
   if (isFinalInLower) {
     const lastUpper = matches.upper.find(match => {
       const hasNextMatchInUpper = matches.upper.some(
-        m => m.code === match.nextMatchId,
+        m => m.code === match.nextMatchId
       );
       return !hasNextMatchInUpper;
     });
     // eslint-disable-next-line no-console
     convergingMatch = matches.lower.find(
-      match => match.code === lastUpper.nextMatchId,
+      match => match.code === lastUpper.nextMatchId
     );
     finalsArray = [
       convergingMatch,
@@ -179,7 +179,6 @@ const DoubleEliminationBracket = ({
                 {...{
                   columns: upperColumns,
                   calculatedStyles,
-
                   gameHeight,
                   gameWidth,
                   onMatchClick,

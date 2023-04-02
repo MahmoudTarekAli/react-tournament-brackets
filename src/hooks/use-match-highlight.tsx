@@ -10,13 +10,13 @@ const useMatchHighlightContext = ({ bracketSnippet = null }) => {
   const currentMatch = bracketSnippet?.currentMatch;
 
   const topHighlighted =
-    currentMatch?.participants?.some(p => p.original.id === hoveredPartyId) &&
-    previousTopMatch?.participants?.some(p => p.original.id === hoveredPartyId);
+    currentMatch?.participants?.some(p => p.original?.id === hoveredPartyId) &&
+    previousTopMatch?.participants?.some(p => p.original?.id === hoveredPartyId);
 
   const bottomHighlighted =
-    currentMatch?.participants?.some(p => p.original.id === hoveredPartyId) &&
+    currentMatch?.participants?.some(p => p.original?.id === hoveredPartyId) &&
     previousBottomMatch?.participants?.some(
-      p => p.original.id === hoveredPartyId
+      p => p.original?.id === hoveredPartyId
     );
   return { topHighlighted, bottomHighlighted };
 };

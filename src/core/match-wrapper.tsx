@@ -5,20 +5,21 @@ import { defaultStyle, getCalculatedStyles } from '../settings';
 import { sortTeamsSeedOrder } from './match-functions';
 
 function Match({
-  rowIndex,
-  columnIndex,
-  match,
+                 rowIndex,
+                 columnIndex,
+                 match,
 
-  previousBottomMatch = null,
-  teams,
-  topText,
-  bottomText,
-  style = defaultStyle,
-  matchComponent: MatchComponent,
-  onMatchClick,
-  onPartyClick,
-  ...rest
-}) {
+                 previousBottomMatch = null,
+                 teams,
+                 topText,
+                 bottomText,
+                 style = defaultStyle,
+                 matchComponent: MatchComponent,
+                 onMatchClick,
+                 onPartyClick,
+                 ...rest
+               }) {
+
   const {
     state: { hoveredPartyId },
     dispatch,
@@ -26,33 +27,40 @@ function Match({
   const computedStyles = getCalculatedStyles(style);
   const { width = 300, boxHeight = 70, connectorColor } = computedStyles;
   const sortedTeams = teams.sort(sortTeamsSeedOrder(previousBottomMatch));
-
   const topParty = sortedTeams?.[0] ? sortedTeams[0] : {};
   const bottomParty = sortedTeams?.[1] ? sortedTeams[1] : {};
 
+  if (sortedTeams?.length < 2) {
+    if (sortedTeams?.[0]?.side === 'home') {
+      sortedTeams.push({});
+    } else {
+      sortedTeams.unshift({});
+    }
+  }
+
   const topHovered =
     !Number.isNaN(hoveredPartyId) &&
-    topParty?.original.id !== undefined &&
-    hoveredPartyId === topParty.original.id;
+    topParty?.original?.id !== undefined &&
+    hoveredPartyId === topParty?.original?.id;
   const bottomHovered =
     !Number.isNaN(hoveredPartyId) &&
-    bottomParty?.original.id !== undefined &&
-    hoveredPartyId === bottomParty.original.id;
+    bottomParty?.original?.id !== undefined &&
+    hoveredPartyId === bottomParty?.original?.id;
 
   const participantWalkedOver = participant =>
     match.state === MATCH_STATES.WALK_OVER &&
     teams.filter(team => !!team.code).length < 2 &&
-    participant.original.id;
+    participant?.original?.id;
 
   // Lower placement is better
   const topWon =
     topParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(topParty) ||
-    topParty.is_winner;
+    topParty?.is_winner;
   const bottomWon =
     bottomParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(bottomParty) ||
-    bottomParty.is_winner;
+    bottomParty?.is_winner;
 
   const matchState = MATCH_STATES[match.state];
 

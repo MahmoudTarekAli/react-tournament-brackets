@@ -14,17 +14,17 @@ import Connectors from './connectors';
 import defaultTheme from '../themes/themes';
 
 const SingleEliminationBracket = ({
-  matches,
-  matchComponent,
-  currentRound,
-  onMatchClick,
-  onPartyClick,
-  svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
-  theme = defaultTheme,
-  options: { style: inputStyle } = {
-    style: defaultStyle,
-  },
-}: SingleElimLeaderboardProps) => {
+                                    matches,
+                                    matchComponent,
+                                    currentRound,
+                                    onMatchClick,
+                                    onPartyClick,
+                                    svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
+                                    theme = defaultTheme,
+                                    options: { style: inputStyle } = {
+                                      style: defaultStyle,
+                                    },
+                                  }: SingleElimLeaderboardProps) => {
   const style = {
     ...defaultStyle,
     ...inputStyle,
@@ -40,8 +40,8 @@ const SingleEliminationBracket = ({
 
   const { roundHeader, columnWidth, canvasPadding, rowHeight, width } =
     getCalculatedStyles(style);
-
   const lastGame = matches.find(match => !match.nextMatchId);
+  const third = matches.find(match => !match.nextMatchId && match.order === 2);
 
   const generateColumn = matchesColumn => {
     const previousMatchesColumn = matchesColumn.reduce((result, match) => {
@@ -52,7 +52,6 @@ const SingleEliminationBracket = ({
           .sort((a, b) => sortAlphanumerically(a.name, b.name)),
       ];
     }, []);
-
     if (previousMatchesColumn.length > 0) {
       return [...generateColumn(previousMatchesColumn), previousMatchesColumn];
     }
@@ -64,12 +63,23 @@ const SingleEliminationBracket = ({
       : [];
   };
   const columns = generate2DBracketArray(lastGame);
+  columns[columns.length - 1].push(third);
   // [
   //   [ First column ]
   //   [ 2nd column ]
   //   [ 3rd column ]
   //   [ lastGame ]
   // ]
+
+  const positions = [];
+  let thirdFourthPosition;
+
+  const calculateThirdFourthMatchPosition = (x, y) => {
+    if (!positions.includes({ x, y })) {
+      positions.push({ x, y });
+    }
+    thirdFourthPosition = positions[positions.length - 2];
+  };
 
   const { gameWidth, gameHeight, startPosition } = calculateSVGDimensions(
     columns[0].length,
@@ -78,7 +88,7 @@ const SingleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound
+    currentRound,
   );
 
   return (
@@ -104,15 +114,20 @@ const SingleEliminationBracket = ({
                       canvasPadding,
                       columnWidth,
                       rowHeight,
-                    }
+                    },
                   );
+                  {
+                    calculateThirdFourthMatchPosition(x, y +
+                      (roundHeader.isShown
+                        ? roundHeader.height + roundHeader.marginBottom
+                        : 0));
+                  }
                   const previousBottomPosition = (rowIndex + 1) * 2 - 1;
-
                   const { previousTopMatch, previousBottomMatch } =
                     getPreviousMatches(
                       columnIndex,
                       columns,
-                      previousBottomPosition
+                      previousBottomPosition,
                     );
                   return (
                     <>
@@ -125,6 +140,8 @@ const SingleEliminationBracket = ({
                           numOfRounds={columns.length}
                           tournamentRoundText={match.tournamentRoundText}
                           columnIndex={columnIndex}
+                          matchesColumn={matchesColumn}
+                          isDouble={false}
                         />
                       )}
                       {columnIndex !== 0 && (
@@ -143,7 +160,9 @@ const SingleEliminationBracket = ({
                           }}
                         />
                       )}
+
                       <g>
+
                         <MatchWrapper
                           x={x}
                           y={
@@ -152,6 +171,7 @@ const SingleEliminationBracket = ({
                               ? roundHeader.height + roundHeader.marginBottom
                               : 0)
                           }
+                          key={match.code}
                           rowIndex={rowIndex}
                           columnIndex={columnIndex}
                           match={match}
@@ -167,9 +187,28 @@ const SingleEliminationBracket = ({
                       </g>
                     </>
                   );
-                })
+                }),
               )}
             </g>
+            <g>
+              <MatchWrapper
+                x={thirdFourthPosition['x'] + 50}
+                y={
+                  (thirdFourthPosition['y'] + 200 )}
+                key={third.code}
+                rowIndex={0}
+                columnIndex={0}
+                match={third}
+                topText={third.startTime}
+                bottomText={third.name}
+                teams={third.participants}
+                onMatchClick={onMatchClick}
+                onPartyClick={onPartyClick}
+                style={style}
+                matchComponent={matchComponent}
+              />
+            </g>
+
           </MatchContextProvider>
         </svg>
       </SvgWrapper>

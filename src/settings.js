@@ -1,10 +1,10 @@
 export const defaultStyle = {
-  width: 300,
+  width: 250,
   boxHeight: 150,
-  canvasPadding: 25,
-  spaceBetweenColumns: 50,
-  spaceBetweenRows: 50,
-  connectorColor: 'rgba(255,255,255,0.26)',
+  canvasPadding: 15,
+  spaceBetweenColumns: 80,
+  spaceBetweenRows: 20,
+  connectorColor: 'rgba(255,255,255,0.25)',
   connectorColorHighlight: '#8429F5',
   roundHeader: {
     isShown: true,

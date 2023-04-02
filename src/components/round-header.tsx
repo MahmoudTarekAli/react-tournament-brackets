@@ -1,15 +1,17 @@
 import React from 'react';
 
 export default function RoundHeader({
-  x,
-  y = 0,
-  width,
-  roundHeader,
-  canvasPadding,
-  numOfRounds,
-  tournamentRoundText,
-  columnIndex,
-}) {
+                                      x,
+                                      y = 0,
+                                      width,
+                                      roundHeader,
+                                      canvasPadding,
+                                      numOfRounds,
+                                      tournamentRoundText,
+                                      columnIndex,
+                                      matchesColumn,
+                                      isDouble
+                                    }) {
   return (
     <g>
       <rect
@@ -18,8 +20,8 @@ export default function RoundHeader({
         width={width}
         height={roundHeader.height}
         fill={roundHeader.backgroundColor}
-        rx="3"
-        ry="3"
+        rx='3'
+        ry='3'
       />
       <text
         fontFamily={roundHeader.fontFamily}
@@ -29,14 +31,14 @@ export default function RoundHeader({
           fontSize: `${roundHeader.fontSize}px`,
           color: roundHeader.fontColor,
         }}
-        fill="currentColor"
-        dominantBaseline="middle"
-        textAnchor="middle"
+        fill='currentColor'
+        dominantBaseline='middle'
+        textAnchor='middle'
       >
-        {columnIndex + 1 === numOfRounds && 'Final'}
-        {columnIndex + 1 === numOfRounds - 1 && 'Semi-final'}
-        {columnIndex + 1 === numOfRounds - 2 && 'Quarter-final'}
-        {columnIndex + 1 < numOfRounds - 2 && `Round ${tournamentRoundText}`}
+        {columnIndex + 1 === numOfRounds && 'Final  '}
+        {columnIndex + 1 === numOfRounds - 1 && 'Semi-final  '}
+        {columnIndex + 1 === numOfRounds - 2 && 'Quarter-final  '}
+        {isDouble ? columnIndex + 1 < numOfRounds - 2 && ` Round ${columnIndex + 1}` : columnIndex + 1 < numOfRounds - 2 && ` Round of ${matchesColumn?.length * 2} `}
       </text>
     </g>
   );

@@ -12,20 +12,20 @@ import {
 } from './styles';
 
 function Match({
-  bottomHovered,
-  bottomParty,
-  bottomText,
-  bottomWon,
-  match,
-  onMatchClick,
-  onMouseEnter,
-  onMouseLeave,
-  onPartyClick,
-  topHovered,
-  topParty,
-  topText,
-  topWon,
-}: MatchComponentProps) {
+                 bottomHovered,
+                 bottomParty,
+                 bottomText,
+                 bottomWon,
+                 match,
+                 onMatchClick,
+                 onMouseEnter,
+                 onMouseLeave,
+                 onPartyClick,
+                 topHovered,
+                 topParty,
+                 topText,
+                 topWon,
+               }: MatchComponentProps) {
   return (
     <Wrapper>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -37,13 +37,16 @@ function Match({
               onMatchClick?.({ match, topWon, bottomWon, event })
             }
           >
-            <TopText>Match Details</TopText>
+            <TopText style={{ display: 'none' }}>Match details</TopText>
           </Anchor>
         )}
       </div>
-      <StyledMatch>
+
+      <StyledMatch
+        onClick={event => onMatchClick?.({ match, topWon, bottomWon, event })}
+      >
         <Side
-          onMouseEnter={() => onMouseEnter(topParty.original.id)}
+          onMouseEnter={() => onMouseEnter(topParty?.original?.id)}
           onMouseLeave={onMouseLeave}
           won={topWon}
           hovered={topHovered}
@@ -51,23 +54,32 @@ function Match({
         >
           <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
             <img
-              src={topParty?.original?.avatar}
+              src={
+                topParty?.original?.avatar
+                  ? topParty?.original?.avatar
+                  : 'https://gbarena-development.s3.amazonaws.com/images/profile.svg'
+              }
               width={topParty?.image?.width ? topParty.image.width : 30}
               height={topParty?.image?.height ? topParty.image.height : 30}
-              alt="icon"
+              alt='icon'
+              loading='lazy'
               style={{
                 borderRadius: topParty?.image?.borderRadius
                   ? topParty.image.borderRadius
                   : 10,
               }}
             />
-            <Team>{topParty?.original?.participant_name}</Team>
+            <Team>
+              {topParty?.original?.participant_name
+                ? topParty?.original?.participant_name
+                : 'Home Player'}{' '}
+            </Team>
           </div>
 
           <Score won={topWon}>{topParty?.score}</Score>
         </Side>
         <Side
-          onMouseEnter={() => onMouseEnter(bottomParty.original.id)}
+          onMouseEnter={() => onMouseEnter(bottomParty.original?.id)}
           onMouseLeave={onMouseLeave}
           won={bottomWon}
           hovered={bottomHovered}
@@ -75,8 +87,13 @@ function Match({
         >
           <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
             <img
-              src={bottomParty?.original?.avatar}
+              src={
+                bottomParty?.original?.avatar
+                  ? bottomParty?.original?.avatar
+                  : 'https://gbarena-development.s3.amazonaws.com/images/profile.svg\n'
+              }
               width={bottomParty?.image?.width ? bottomParty.image.width : 30}
+              loading='lazy'
               height={
                 bottomParty?.image?.height ? bottomParty.image.height : 30
               }
@@ -86,7 +103,11 @@ function Match({
                   : 10,
               }}
             />
-            <Team>{bottomParty?.original.participant_name}</Team>
+            <Team>
+              {bottomParty?.original?.participant_name
+                ? bottomParty?.original?.participant_name
+                : 'Away Player'}
+            </Team>
           </div>
 
           <Score won={bottomWon}>{bottomParty?.score}</Score>
