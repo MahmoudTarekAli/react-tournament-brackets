@@ -1,6 +1,6 @@
 {
   "name": "g-react-brackets",
-  "version": "2.9.0",
+  "version": "3.1.0",
   "description": "A react component to visualize bracket leaderboards",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",

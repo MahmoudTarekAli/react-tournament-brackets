@@ -40,6 +40,7 @@ const SingleEliminationBracket = ({
 
   const { roundHeader, columnWidth, canvasPadding, rowHeight, width } =
     getCalculatedStyles(style);
+  console.log(matches);
   const lastGame = matches.find(match => !match.nextMatchId);
   const third = matches.find(match => !match.nextMatchId && match.order === 2);
 
@@ -63,8 +64,7 @@ const SingleEliminationBracket = ({
       : [];
   };
   const columns = generate2DBracketArray(lastGame);
-  columns[columns.length - 1].push(third);
-  console.log(matches)
+  // columns[columns.length - 1].push(third);
   // [
   //   [ First column ]
   //   [ 2nd column ]
@@ -79,7 +79,7 @@ const SingleEliminationBracket = ({
     if (!positions.includes({ x, y })) {
       positions.push({ x, y });
     }
-    thirdFourthPosition = positions[positions.length - 2];
+    thirdFourthPosition = positions[positions.length - 1];
   };
 
   const { gameWidth, gameHeight, startPosition } = calculateSVGDimensions(
@@ -95,8 +95,8 @@ const SingleEliminationBracket = ({
   return (
     <ThemeProvider theme={theme}>
       <SvgWrapper
-        bracketWidth={gameWidth}
-        bracketHeight={gameHeight}
+        bracketWidth={1000}
+        bracketHeight={1000}
         startAt={startPosition}
       >
         <svg
@@ -195,7 +195,7 @@ const SingleEliminationBracket = ({
               <MatchWrapper
                 x={thirdFourthPosition['x'] + 50}
                 y={
-                  (thirdFourthPosition['y'] + 200 )}
+                  (thirdFourthPosition['y'] + 200)}
                 key={third.code}
                 rowIndex={0}
                 columnIndex={0}
