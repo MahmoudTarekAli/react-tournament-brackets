@@ -20,6 +20,7 @@ export const GlootThemeBracket = () => {
   return (
     <SingleEliminationBracket
       matches={simpleSmallBracket}
+      currentRound={}
       matchComponent={Match}
       theme={GlootTheme}
       options={{

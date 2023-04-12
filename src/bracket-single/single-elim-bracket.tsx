@@ -14,17 +14,17 @@ import Connectors from './connectors';
 import defaultTheme from '../themes/themes';
 
 const SingleEliminationBracket = ({
-                                    matches,
-                                    matchComponent,
-                                    currentRound,
-                                    onMatchClick,
-                                    onPartyClick,
-                                    svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
-                                    theme = defaultTheme,
-                                    options: { style: inputStyle } = {
-                                      style: defaultStyle,
-                                    },
-                                  }: SingleElimLeaderboardProps) => {
+  matches,
+  matchComponent,
+  currentRound,
+  onMatchClick,
+  onPartyClick,
+  svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
+  theme = defaultTheme,
+  options: { style: inputStyle } = {
+    style: defaultStyle,
+  },
+}: SingleElimLeaderboardProps) => {
   const style = {
     ...defaultStyle,
     ...inputStyle,
@@ -63,8 +63,7 @@ const SingleEliminationBracket = ({
       : [];
   };
   const columns = generate2DBracketArray(lastGame);
-  columns[columns.length - 1].push(third);
-  console.log(matches)
+  // columns[columns.length - 1].push(third);
   // [
   //   [ First column ]
   //   [ 2nd column ]
@@ -79,7 +78,12 @@ const SingleEliminationBracket = ({
     if (!positions.includes({ x, y })) {
       positions.push({ x, y });
     }
-    thirdFourthPosition = positions[positions.length - 2];
+    if (positions[positions.length - 1]) {
+      thirdFourthPosition = {
+        x: positions[positions.length - 1].x,
+        y: positions[positions.length - 1].y + 170,
+      };
+    }
   };
 
   const { gameWidth, gameHeight, startPosition } = calculateSVGDimensions(
@@ -89,20 +93,21 @@ const SingleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound,
+    currentRound
   );
-
   return (
     <ThemeProvider theme={theme}>
       <SvgWrapper
-        bracketWidth={gameWidth}
-        bracketHeight={gameHeight}
+        bracketWidth={matches.length <= 4 ? 650 : gameWidth}
+        bracketHeight={matches.length <= 4 ? 650 : gameHeight}
         startAt={startPosition}
       >
         <svg
-          height={gameHeight}
-          width={gameWidth}
-          viewBox={`0 0 ${gameWidth} ${gameHeight}`}
+          height={matches.length <= 4 ? 650 : gameHeight}
+          width={matches.length <= 4 ? 650 : gameWidth}
+          viewBox={`0 0 ${matches.length <= 4 ? 650 : gameWidth} ${
+            matches.length <= 4 ? 650 : gameHeight
+          }`}
         >
           <MatchContextProvider>
             <g>
@@ -115,20 +120,23 @@ const SingleEliminationBracket = ({
                       canvasPadding,
                       columnWidth,
                       rowHeight,
-                    },
+                    }
                   );
                   {
-                    calculateThirdFourthMatchPosition(x, y +
-                      (roundHeader.isShown
-                        ? roundHeader.height + roundHeader.marginBottom
-                        : 0));
+                    calculateThirdFourthMatchPosition(
+                      x,
+                      y +
+                        (roundHeader.isShown
+                          ? roundHeader.height + roundHeader.marginBottom
+                          : 0)
+                    );
                   }
                   const previousBottomPosition = (rowIndex + 1) * 2 - 1;
                   const { previousTopMatch, previousBottomMatch } =
                     getPreviousMatches(
                       columnIndex,
                       columns,
-                      previousBottomPosition,
+                      previousBottomPosition
                     );
                   return (
                     <>
@@ -163,7 +171,6 @@ const SingleEliminationBracket = ({
                       )}
 
                       <g>
-
                         <MatchWrapper
                           x={x}
                           y={
@@ -188,14 +195,13 @@ const SingleEliminationBracket = ({
                       </g>
                     </>
                   );
-                }),
+                })
               )}
             </g>
             <g>
               <MatchWrapper
-                x={thirdFourthPosition['x'] + 50}
-                y={
-                  (thirdFourthPosition['y'] + 200 )}
+                x={thirdFourthPosition.x}
+                y={thirdFourthPosition.y}
                 key={third.code}
                 rowIndex={0}
                 columnIndex={0}
@@ -209,7 +215,6 @@ const SingleEliminationBracket = ({
                 matchComponent={matchComponent}
               />
             </g>
-
           </MatchContextProvider>
         </svg>
       </SvgWrapper>
