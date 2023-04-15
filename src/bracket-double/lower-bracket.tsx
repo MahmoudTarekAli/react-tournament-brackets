@@ -11,6 +11,7 @@ const LowerBracket = ({
   gameWidth,
   onMatchClick,
   onPartyClick,
+  onScoreClick,
   matchComponent,
   upperBracketHeight,
 }) => {
@@ -75,6 +76,7 @@ const LowerBracket = ({
               teams={match.participants}
               onMatchClick={onMatchClick}
               onPartyClick={onPartyClick}
+              onScoreClick={onScoreClick}
               style={calculatedStyles}
               matchComponent={matchComponent}
               matchesColumn={matchesColumn}

@@ -9,7 +9,7 @@ import SvgViewer from '../svg-viewer';
 import {
   walkOverData,
   simpleBracket,
-  simpleSmallBracket, largeBracket, smallBracket,
+  simpleSmallBracket, largeBracket, smallBracket, largerData,
 } from '../mock-data/simple-data';
 import soloWalkover from '../mock-data/solo-walkover';
 
@@ -49,7 +49,7 @@ Bracket.args = {
 };
 export const SmallBracket = Template.bind({});
 SmallBracket.args = {
-  matches: smallBracket,
+  matches: largerData,
   matchComponent: Match,
 };
 export const WalkOverBracket = Template.bind({});

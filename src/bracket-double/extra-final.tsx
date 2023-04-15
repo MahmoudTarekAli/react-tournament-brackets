@@ -13,7 +13,7 @@ const ExtraFinal = ({
   onMatchClick,
   onPartyClick,
   matchComponent,
-
+  onScoreClick,
   bracketSnippet,
   numOfUpperRounds,
   numOfLowerRounds,
@@ -66,6 +66,7 @@ const ExtraFinal = ({
           bottomText={match.name}
           teams={match.participants}
           onMatchClick={onMatchClick}
+          onScoreClick={onScoreClick}
           onPartyClick={onPartyClick}
           style={calculatedStyles}
           matchComponent={matchComponent}

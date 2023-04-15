@@ -113,6 +113,13 @@ export type SvgViewerProps = {
 export type MatchComponentProps = {
   match: Match;
 
+  onScoreClick: (args: {
+    match: Match;
+    topWon: boolean;
+    bottomWon: boolean;
+    event: any;
+  }) => void;
+
   onMatchClick: (args: {
     match: Match;
     topWon: boolean;
@@ -199,7 +206,12 @@ export type BracketLeaderboardProps = {
   }) => React.ReactElement;
 
   currentRound?: string;
-
+  onScoreClick: (args: {
+    match: Match;
+    topWon: boolean;
+    bottomWon: boolean;
+    event: any;
+  }) => void;
   onMatchClick?: (args: {
     match: Match;
     topWon: boolean;

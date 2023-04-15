@@ -13,7 +13,7 @@ const FinalGame = ({
   onMatchClick,
   onPartyClick,
   matchComponent,
-
+                     onScoreClick,
   bracketSnippet,
   numOfUpperRounds,
   numOfLowerRounds,
@@ -67,6 +67,8 @@ const FinalGame = ({
           teams={match.participants}
           onMatchClick={onMatchClick}
           onPartyClick={onPartyClick}
+          onScoreClick={onScoreClick}
+
           style={calculatedStyles}
           matchComponent={matchComponent}
         />

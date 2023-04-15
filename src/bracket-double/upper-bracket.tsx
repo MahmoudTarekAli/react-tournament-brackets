@@ -10,6 +10,7 @@ const UpperBracket = ({
   gameHeight,
   gameWidth,
   onMatchClick,
+  onScoreClick,
   onPartyClick,
   matchComponent,
 }) => {
@@ -68,10 +69,10 @@ const UpperBracket = ({
               teams={match.participants}
               onMatchClick={onMatchClick}
               onPartyClick={onPartyClick}
+              onScoreClick={onScoreClick}
               style={calculatedStyles}
               matchComponent={matchComponent}
               matchesColumn={matchesColumn}
-
             />
           </g>
         </>

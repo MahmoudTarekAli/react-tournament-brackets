@@ -40,12 +40,12 @@ function findTheFinals(matches) {
   if (isFinalInUpper) {
     const lastLower = matches.lower.find(match => {
       const hasNextMatchInLower = matches.lower.some(
-        m => m.code === match.nextMatchId,
+        m => m.code === match.nextMatchId
       );
       return !hasNextMatchInLower;
     });
     convergingMatch = matches.upper.find(
-      match => match.code === lastLower.nextMatchId,
+      match => match.code === lastLower.nextMatchId
     );
     finalsArray = [
       convergingMatch,
@@ -57,17 +57,18 @@ function findTheFinals(matches) {
 }
 
 const DoubleEliminationBracket = ({
-                                    matches,
-                                    matchComponent,
-                                    currentRound,
-                                    onMatchClick,
-                                    onPartyClick,
-                                    svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
-                                    theme = defaultTheme,
-                                    options: { style: inputStyle } = {
-                                      style: defaultStyle,
-                                    },
-                                  }: DoubleElimLeaderboardProps) => {
+  matches,
+  matchComponent,
+  currentRound,
+  onMatchClick,
+  onScoreClick,
+  onPartyClick,
+  svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
+  theme = defaultTheme,
+  options: { style: inputStyle } = {
+    style: defaultStyle,
+  },
+}: DoubleElimLeaderboardProps) => {
   const style = {
     ...defaultStyle,
     ...inputStyle,
@@ -92,7 +93,7 @@ const DoubleEliminationBracket = ({
   const generateColumn = (matchesColumn, listOfMatches) => {
     const previousMatchesColumn = generatePreviousRound(
       matchesColumn,
-      listOfMatches,
+      listOfMatches
     );
 
     if (previousMatchesColumn.length > 0) {
@@ -106,8 +107,8 @@ const DoubleEliminationBracket = ({
   const generate2DBracketArray = (final, listOfMatches) => {
     return final
       ? [...generateColumn([final], listOfMatches), []].filter(
-        arr => arr.length > 0,
-      )
+          arr => arr.length > 0
+        )
       : [];
   };
 
@@ -129,7 +130,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound,
+    currentRound
   );
   const lowerBracketDimensions = calculateSVGDimensions(
     lowerColumns[0].length,
@@ -138,7 +139,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound,
+    currentRound
   );
   const fullBracketDimensions = calculateSVGDimensions(
     lowerColumns[0].length,
@@ -147,7 +148,7 @@ const DoubleEliminationBracket = ({
     columnWidth,
     canvasPadding,
     roundHeader,
-    currentRound,
+    currentRound
   );
 
   const { gameWidth } = fullBracketDimensions;
@@ -182,6 +183,7 @@ const DoubleEliminationBracket = ({
                   gameHeight,
                   gameWidth,
                   onMatchClick,
+                  onScoreClick,
                   onPartyClick,
                   matchComponent,
                 }}
@@ -193,6 +195,7 @@ const DoubleEliminationBracket = ({
                   gameHeight,
                   gameWidth,
                   onMatchClick,
+                  onScoreClick,
                   onPartyClick,
                   matchComponent,
                   upperBracketHeight: upperBracketDimensions.gameHeight,
@@ -218,6 +221,7 @@ const DoubleEliminationBracket = ({
                   gameWidth,
                   matchComponent,
                   onMatchClick,
+                  onScoreClick,
                   onPartyClick,
                 }}
               />
@@ -240,6 +244,7 @@ const DoubleEliminationBracket = ({
                     gameWidth,
                     matchComponent,
                     onMatchClick,
+                    onScoreClick,
                     onPartyClick,
                   }}
                 />

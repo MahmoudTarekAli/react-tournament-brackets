@@ -18,6 +18,7 @@ const SingleEliminationBracket = ({
   matchComponent,
   currentRound,
   onMatchClick,
+  onScoreClick,
   onPartyClick,
   svgWrapper: SvgWrapper = ({ children }) => <div>{children}</div>,
   theme = defaultTheme,
@@ -188,6 +189,7 @@ const SingleEliminationBracket = ({
                           bottomText={match.name}
                           teams={match.participants}
                           onMatchClick={onMatchClick}
+                          onScoreClick={onScoreClick}
                           onPartyClick={onPartyClick}
                           style={style}
                           matchComponent={matchComponent}
@@ -198,23 +200,26 @@ const SingleEliminationBracket = ({
                 })
               )}
             </g>
-            <g>
-              <MatchWrapper
-                x={thirdFourthPosition.x}
-                y={thirdFourthPosition.y}
-                key={third.code}
-                rowIndex={0}
-                columnIndex={0}
-                match={third}
-                topText={third.startTime}
-                bottomText={third.name}
-                teams={third.participants}
-                onMatchClick={onMatchClick}
-                onPartyClick={onPartyClick}
-                style={style}
-                matchComponent={matchComponent}
-              />
-            </g>
+            {third && (
+              <g>
+                <MatchWrapper
+                  x={thirdFourthPosition.x}
+                  y={thirdFourthPosition.y}
+                  key={third.code}
+                  rowIndex={0}
+                  columnIndex={0}
+                  match={third}
+                  topText={third.startTime}
+                  bottomText={third.name}
+                  teams={third.participants}
+                  onMatchClick={onMatchClick}
+                  onScoreClick={onScoreClick}
+                  onPartyClick={onPartyClick}
+                  style={style}
+                  matchComponent={matchComponent}
+                />
+              </g>
+            )}
           </MatchContextProvider>
         </svg>
       </SvgWrapper>

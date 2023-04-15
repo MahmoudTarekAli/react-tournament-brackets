@@ -1,4 +1,4 @@
-declare const ExtraFinal: ({ match, rowIndex, columnIndex, gameHeight, gameWidth, calculatedStyles, onMatchClick, onPartyClick, matchComponent, bracketSnippet, numOfUpperRounds, numOfLowerRounds, upperBracketHeight, lowerBracketHeight, }: {
+declare const ExtraFinal: ({ match, rowIndex, columnIndex, gameHeight, gameWidth, calculatedStyles, onMatchClick, onPartyClick, matchComponent, onScoreClick, bracketSnippet, numOfUpperRounds, numOfLowerRounds, upperBracketHeight, lowerBracketHeight, }: {
     match: any;
     rowIndex: any;
     columnIndex: any;
@@ -8,6 +8,7 @@ declare const ExtraFinal: ({ match, rowIndex, columnIndex, gameHeight, gameWidth
     onMatchClick: any;
     onPartyClick: any;
     matchComponent: any;
+    onScoreClick: any;
     bracketSnippet: any;
     numOfUpperRounds: any;
     numOfLowerRounds: any;
