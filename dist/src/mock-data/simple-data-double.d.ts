@@ -162,7 +162,7 @@ declare const _default: {
             participant_type: string;
             match_id: number;
             side: string;
-            score: any;
+            score: number;
             is_winner: boolean;
             original: {
                 id: number;

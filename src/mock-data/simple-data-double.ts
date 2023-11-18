@@ -1359,23 +1359,6 @@ export default {
       },
       'participants': [
         {
-          'participant_id': 94451,
-          'participant_type': 'single',
-          'match_id': 454672,
-          'side': 'home',
-          'score': null,
-          'is_winner': false,
-          'original': {
-            'id': 94451,
-            'country': 'Egypt',
-            'participant_name': 'ahmed-elsherif-1266',
-            'reference_number': 'AE66888',
-            'slug': 'ahmed-elsherif-1266',
-            'is_premium': false,
-            'avatar': 'https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png',
-          },
-        },
-        {
           'participant_id': 35131,
           'participant_type': 'single',
           'match_id': 454672,
@@ -1390,6 +1373,24 @@ export default {
             'slug': 'ebraheembob2',
             'is_premium': false,
             'avatar': 'https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png',
+          },
+        },
+
+        {
+          'participant_id': 94451,
+          'participant_type': 'single',
+          'match_id': 454672,
+          'side': 'home',
+          'score': null,
+          'is_winner': false,
+          'original': {
+            'id': 94451,
+            'country': 'Egypt',
+            'participant_name': 'ahmed-elsherif-1266',
+            'reference_number': 'AE66888',
+            'slug': 'ahmed-elsherif-1266',
+            'is_premium': false,
+            'avatar': 'https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png',
           },
         },
       ],
