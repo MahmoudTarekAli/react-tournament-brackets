@@ -7,7 +7,7 @@ const defaultTheme: Theme = {
 
   disabledColor: '#5D6371',
   matchBackground: {
-    wonColor: '#FFFFFF',
+    wonColor: '#8429f5',
     lostColor: '#341671',
   },
   border: {

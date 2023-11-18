@@ -25,7 +25,6 @@ function Match({
     dispatch,
   } = useContext(matchContext);
   const computedStyles = getCalculatedStyles(style);
-  console.log(match)
   const { width = 300, boxHeight = 70, connectorColor } = computedStyles;
   const sortedTeams = teams.sort(sortTeamsSeedOrder(previousBottomMatch));
   const topParty =
@@ -37,7 +36,6 @@ function Match({
       ? sortedTeams[1]
       : sortedTeams.find(team => team.side === 'away') || {};
 
-  console.log(sortedTeams);
 
 
   const topHovered =
