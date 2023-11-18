@@ -60,7 +60,6 @@ export declare const simpleSmallBracket: {
             participant_id: number;
             type: string;
             participant_name: any;
-            is_dummy: boolean;
             reference_number: any;
             supported_required_inputs: any;
             accounts: any[];
@@ -70,8 +69,7 @@ export declare const simpleSmallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     };
@@ -86,7 +84,6 @@ export declare const simpleSmallBracket: {
             participant_id: number;
             type: string;
             participant_name: any;
-            is_dummy: boolean;
             reference_number: any;
             supported_required_inputs: any;
             accounts: any[];
@@ -96,8 +93,7 @@ export declare const simpleSmallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     };
@@ -113,8 +109,7 @@ export declare const simpleSmallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     }[];
@@ -145,7 +140,6 @@ export declare const smallBracket: {
             participant_id: number;
             type: string;
             participant_name: any;
-            is_dummy: boolean;
             reference_number: any;
             supported_required_inputs: any;
             accounts: any[];
@@ -155,8 +149,7 @@ export declare const smallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     };
@@ -171,7 +164,6 @@ export declare const smallBracket: {
             participant_id: number;
             type: string;
             participant_name: any;
-            is_dummy: boolean;
             reference_number: any;
             supported_required_inputs: any;
             accounts: any[];
@@ -181,8 +173,7 @@ export declare const smallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     };
@@ -198,8 +189,7 @@ export declare const smallBracket: {
             country: string;
             participant_name: string;
             reference_number: string;
-            slug: string;
-            is_premium: boolean;
+            owner_id: number;
             avatar: string;
         };
     }[];

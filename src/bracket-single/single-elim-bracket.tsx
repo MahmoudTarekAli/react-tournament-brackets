@@ -42,7 +42,7 @@ const SingleEliminationBracket = ({
     getCalculatedStyles(style);
   const lastGame = matches.find(match => !match.nextMatchId);
   const third = matches.find(match => !match.nextMatchId && match.order === 2);
-
+  console.log(third)
   const generateColumn = matchesColumn => {
     const previousMatchesColumn = matchesColumn.reduce((result, match) => {
       return [
@@ -184,8 +184,8 @@ const SingleEliminationBracket = ({
                           columnIndex={columnIndex}
                           match={match}
                           previousBottomMatch={previousBottomMatch}
-                          topText={match.startTime}
-                          bottomText={match.name}
+                          topText=""
+                          bottomText=""
                           teams={match.participants}
                           onMatchClick={onMatchClick}
                           onPartyClick={onPartyClick}
@@ -206,7 +206,7 @@ const SingleEliminationBracket = ({
                 rowIndex={0}
                 columnIndex={0}
                 match={third}
-                topText={third.startTime}
+                topText=""
                 bottomText={third.name}
                 teams={third.participants}
                 onMatchClick={onMatchClick}

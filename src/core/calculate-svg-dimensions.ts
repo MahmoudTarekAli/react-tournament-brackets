@@ -5,7 +5,7 @@ export function calculateSVGDimensions(
   columnWidth: any,
   canvasPadding: any,
   roundHeader: any,
-  currentRound: string = ''
+  currentRound: string = '',
 ) {
   const bracketHeight = numOfRows * rowHeight;
   const bracketWidth = numOfColumns * columnWidth;

@@ -152,31 +152,30 @@ export const walkOverData = [
 
 export const simpleSmallBracket = [
   {
-    "id":118713,
+    "id":121229,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6832,
+    "round_id":7288,
     "order":1,
-    "code":"K7QzDTi",
+    "code":"fe8pQ9L",
     "match_no":1,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"H3p0MHf",
+    "nextMatchId":"7AGLQLj",
     "is_claimable":true,
     "home":{
-      "participant_id":127282,
-      "participant_type":"single",
-      "match_id":118713,
+      "participant_id":66865,
+      "participant_type":"teams",
+      "match_id":121229,
       "side":"home",
-      "score":3,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":127282,
-        "type":"single",
+        "participant_id":66865,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -184,27 +183,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":127282,
+        "id":66865,
         "country":"Egypt",
-        "participant_name":"MohamedAyman00",
-        "reference_number":"MO43307",
-        "slug":"mohamedayman00",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"mody",
+        "reference_number":"MO21506",
+        "owner_id":390629,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":309468,
-      "participant_type":"single",
-      "match_id":118713,
+      "participant_id":66680,
+      "participant_type":"teams",
+      "match_id":121229,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":309468,
-        "type":"single",
+        "participant_id":66680,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -212,48 +209,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":309468,
-        "country":"India",
-        "participant_name":"mgesporys-3744",
-        "reference_number":"M390257",
-        "slug":"mgesporys-3744",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-EMaJVrSZvFPCkwB.jpg"
+        "id":66680,
+        "country":"Egypt",
+        "participant_name":"Hunters",
+        "reference_number":"HU81392",
+        "owner_id":389955,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":127282,
-        "participant_type":"single",
-        "match_id":118713,
-        "side":"home",
-        "score":3,
+        "participant_id":66680,
+        "participant_type":"teams",
+        "match_id":121229,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":127282,
+          "id":66680,
           "country":"Egypt",
-          "participant_name":"MohamedAyman00",
-          "reference_number":"MO43307",
-          "slug":"mohamedayman00",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "participant_name":"Hunters",
+          "reference_number":"HU81392",
+          "owner_id":389955,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":309468,
-        "participant_type":"single",
-        "match_id":118713,
-        "side":"away",
-        "score":1,
+        "participant_id":66865,
+        "participant_type":"teams",
+        "match_id":121229,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":309468,
-          "country":"India",
-          "participant_name":"mgesporys-3744",
-          "reference_number":"M390257",
-          "slug":"mgesporys-3744",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-EMaJVrSZvFPCkwB.jpg"
+          "id":66865,
+          "country":"Egypt",
+          "participant_name":"mody",
+          "reference_number":"MO21506",
+          "owner_id":390629,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -262,31 +256,30 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118714,
+    "id":121230,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6832,
+    "round_id":7288,
     "order":2,
-    "code":"YzKLwwS",
+    "code":"0z2hs3T",
     "match_no":2,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"H3p0MHf",
+    "nextMatchId":"7AGLQLj",
     "is_claimable":true,
     "home":{
-      "participant_id":15959,
-      "participant_type":"single",
-      "match_id":118714,
+      "participant_id":66839,
+      "participant_type":"teams",
+      "match_id":121230,
       "side":"home",
-      "score":1,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":15959,
-        "type":"single",
+        "participant_id":66839,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -294,27 +287,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":15959,
-        "country":"Egypt",
-        "participant_name":"mamdouh-hamdy",
-        "reference_number":"MH98995",
-        "slug":"mamdouh-hamdy",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.jpg"
+        "id":66839,
+        "country":"France",
+        "participant_name":"ROWAD",
+        "reference_number":"RO34683",
+        "owner_id":390487,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":346361,
-      "participant_type":"single",
-      "match_id":118714,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121230,
       "side":"away",
-      "score":4,
+      "score":1,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":346361,
-        "type":"single",
+        "participant_id":66679,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -322,48 +313,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":346361,
+        "id":66679,
         "country":"Egypt",
-        "participant_name":"mhmd-aat-4663",
-        "reference_number":"MA13733",
-        "slug":"mhmd-aat-4663",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":15959,
-        "participant_type":"single",
-        "match_id":118714,
-        "side":"home",
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121230,
+        "side":"away",
         "score":1,
-        "is_winner":false,
+        "is_winner":true,
         "original":{
-          "id":15959,
+          "id":66679,
           "country":"Egypt",
-          "participant_name":"mamdouh-hamdy",
-          "reference_number":"MH98995",
-          "slug":"mamdouh-hamdy",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.jpg"
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":346361,
-        "participant_type":"single",
-        "match_id":118714,
-        "side":"away",
-        "score":4,
-        "is_winner":true,
+        "participant_id":66839,
+        "participant_type":"teams",
+        "match_id":121230,
+        "side":"home",
+        "score":0,
+        "is_winner":false,
         "original":{
-          "id":346361,
-          "country":"Egypt",
-          "participant_name":"mhmd-aat-4663",
-          "reference_number":"MA13733",
-          "slug":"mhmd-aat-4663",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
+          "id":66839,
+          "country":"France",
+          "participant_name":"ROWAD",
+          "reference_number":"RO34683",
+          "owner_id":390487,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -372,31 +360,30 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118715,
+    "id":121231,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6832,
+    "round_id":7288,
     "order":3,
-    "code":"8mXxz1h",
+    "code":"fyWZ9XM",
     "match_no":3,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"73tBp7S",
+    "nextMatchId":"2guKQNq",
     "is_claimable":true,
     "home":{
-      "participant_id":228817,
-      "participant_type":"single",
-      "match_id":118715,
+      "participant_id":66841,
+      "participant_type":"teams",
+      "match_id":121231,
       "side":"home",
-      "score":2,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":228817,
-        "type":"single",
+        "participant_id":66841,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -404,27 +391,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":228817,
+        "id":66841,
         "country":"Egypt",
-        "participant_name":"fg-gg-9982",
-        "reference_number":"FG73039",
-        "slug":"fg-gg-9982",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+        "participant_name":"Supporting 1907",
+        "reference_number":"NW15082",
+        "owner_id":390521,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":141629,
-      "participant_type":"single",
-      "match_id":118715,
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121231,
       "side":"away",
-      "score":3,
+      "score":1,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":141629,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -432,48 +417,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":141629,
-        "country":"Iraq",
-        "participant_name":"demon-dr4go-5876",
-        "reference_number":"DD75728",
-        "slug":"demon-dr4go-5876",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+        "id":66746,
+        "country":"Egypt",
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":228817,
-        "participant_type":"single",
-        "match_id":118715,
-        "side":"home",
-        "score":2,
-        "is_winner":false,
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121231,
+        "side":"away",
+        "score":1,
+        "is_winner":true,
         "original":{
-          "id":228817,
+          "id":66746,
           "country":"Egypt",
-          "participant_name":"fg-gg-9982",
-          "reference_number":"FG73039",
-          "slug":"fg-gg-9982",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":141629,
-        "participant_type":"single",
-        "match_id":118715,
-        "side":"away",
-        "score":3,
-        "is_winner":true,
+        "participant_id":66841,
+        "participant_type":"teams",
+        "match_id":121231,
+        "side":"home",
+        "score":0,
+        "is_winner":false,
         "original":{
-          "id":141629,
-          "country":"Iraq",
-          "participant_name":"demon-dr4go-5876",
-          "reference_number":"DD75728",
-          "slug":"demon-dr4go-5876",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+          "id":66841,
+          "country":"Egypt",
+          "participant_name":"Supporting 1907",
+          "reference_number":"NW15082",
+          "owner_id":390521,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -482,31 +464,30 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118716,
+    "id":121232,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6832,
+    "round_id":7288,
     "order":4,
-    "code":"gEcoPmu",
+    "code":"FRdZKfE",
     "match_no":4,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"73tBp7S",
+    "nextMatchId":"2guKQNq",
     "is_claimable":true,
     "home":{
-      "participant_id":244629,
-      "participant_type":"single",
-      "match_id":118716,
+      "participant_id":66827,
+      "participant_type":"teams",
+      "match_id":121232,
       "side":"home",
-      "score":1,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":244629,
-        "type":"single",
+        "participant_id":66827,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -514,27 +495,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":244629,
-        "country":"Egypt",
-        "participant_name":"manar-hamada-4005",
-        "reference_number":"MH78634",
-        "slug":"manar-hamada-4005",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-gRzPBsjL1YrS6WQ.jpg"
+        "id":66827,
+        "country":"France",
+        "participant_name":"THE BOYZ",
+        "reference_number":"2W71063",
+        "owner_id":390463,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":19396,
-      "participant_type":"single",
-      "match_id":118716,
+      "participant_id":66744,
+      "participant_type":"teams",
+      "match_id":121232,
       "side":"away",
-      "score":2,
+      "score":1,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":19396,
-        "type":"single",
+        "participant_id":66744,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -542,48 +521,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":19396,
+        "id":66744,
         "country":"Egypt",
-        "participant_name":"karim-ragab-2",
-        "reference_number":"KR87352",
-        "slug":"karim-ragab-2",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
+        "participant_name":"mosaab ibrahem ahmed",
+        "reference_number":"T256356",
+        "owner_id":242297,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":244629,
-        "participant_type":"single",
-        "match_id":118716,
-        "side":"home",
+        "participant_id":66744,
+        "participant_type":"teams",
+        "match_id":121232,
+        "side":"away",
         "score":1,
-        "is_winner":false,
+        "is_winner":true,
         "original":{
-          "id":244629,
+          "id":66744,
           "country":"Egypt",
-          "participant_name":"manar-hamada-4005",
-          "reference_number":"MH78634",
-          "slug":"manar-hamada-4005",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-gRzPBsjL1YrS6WQ.jpg"
+          "participant_name":"mosaab ibrahem ahmed",
+          "reference_number":"T256356",
+          "owner_id":242297,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":19396,
-        "participant_type":"single",
-        "match_id":118716,
-        "side":"away",
-        "score":2,
-        "is_winner":true,
+        "participant_id":66827,
+        "participant_type":"teams",
+        "match_id":121232,
+        "side":"home",
+        "score":0,
+        "is_winner":false,
         "original":{
-          "id":19396,
-          "country":"Egypt",
-          "participant_name":"karim-ragab-2",
-          "reference_number":"KR87352",
-          "slug":"karim-ragab-2",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
+          "id":66827,
+          "country":"France",
+          "participant_name":"THE BOYZ",
+          "reference_number":"2W71063",
+          "owner_id":390463,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -592,31 +568,30 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118717,
+    "id":121233,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6833,
+    "round_id":7289,
     "order":1,
-    "code":"H3p0MHf",
+    "code":"7AGLQLj",
     "match_no":5,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"nj7wxY7",
+    "nextMatchId":"ktTctV2",
     "is_claimable":true,
     "home":{
-      "participant_id":127282,
-      "participant_type":"single",
-      "match_id":118717,
+      "participant_id":66680,
+      "participant_type":"teams",
+      "match_id":121233,
       "side":"home",
-      "score":3,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":127282,
-        "type":"single",
+        "participant_id":66680,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -624,27 +599,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":127282,
+        "id":66680,
         "country":"Egypt",
-        "participant_name":"MohamedAyman00",
-        "reference_number":"MO43307",
-        "slug":"mohamedayman00",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"Hunters",
+        "reference_number":"HU81392",
+        "owner_id":389955,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":346361,
-      "participant_type":"single",
-      "match_id":118717,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121233,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":346361,
-        "type":"single",
+        "participant_id":66679,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -652,48 +625,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":346361,
+        "id":66679,
         "country":"Egypt",
-        "participant_name":"mhmd-aat-4663",
-        "reference_number":"MA13733",
-        "slug":"mhmd-aat-4663",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":127282,
-        "participant_type":"single",
-        "match_id":118717,
-        "side":"home",
-        "score":3,
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121233,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":127282,
+          "id":66679,
           "country":"Egypt",
-          "participant_name":"MohamedAyman00",
-          "reference_number":"MO43307",
-          "slug":"mohamedayman00",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":346361,
-        "participant_type":"single",
-        "match_id":118717,
-        "side":"away",
-        "score":1,
+        "participant_id":66680,
+        "participant_type":"teams",
+        "match_id":121233,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":346361,
+          "id":66680,
           "country":"Egypt",
-          "participant_name":"mhmd-aat-4663",
-          "reference_number":"MA13733",
-          "slug":"mhmd-aat-4663",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
+          "participant_name":"Hunters",
+          "reference_number":"HU81392",
+          "owner_id":389955,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -702,31 +672,30 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118718,
+    "id":121234,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6833,
+    "round_id":7289,
     "order":2,
-    "code":"73tBp7S",
+    "code":"2guKQNq",
     "match_no":6,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"nj7wxY7",
+    "nextMatchId":"ktTctV2",
     "is_claimable":true,
     "home":{
-      "participant_id":141629,
-      "participant_type":"single",
-      "match_id":118718,
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121234,
       "side":"home",
-      "score":4,
+      "score":1,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":141629,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -734,27 +703,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":141629,
-        "country":"Iraq",
-        "participant_name":"demon-dr4go-5876",
-        "reference_number":"DD75728",
-        "slug":"demon-dr4go-5876",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+        "id":66746,
+        "country":"Egypt",
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":19396,
-      "participant_type":"single",
-      "match_id":118718,
+      "participant_id":66744,
+      "participant_type":"teams",
+      "match_id":121234,
       "side":"away",
-      "score":1,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":19396,
-        "type":"single",
+        "participant_id":66744,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -762,48 +729,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":19396,
+        "id":66744,
         "country":"Egypt",
-        "participant_name":"karim-ragab-2",
-        "reference_number":"KR87352",
-        "slug":"karim-ragab-2",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
+        "participant_name":"mosaab ibrahem ahmed",
+        "reference_number":"T256356",
+        "owner_id":242297,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":141629,
-        "participant_type":"single",
-        "match_id":118718,
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121234,
         "side":"home",
-        "score":4,
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":141629,
-          "country":"Iraq",
-          "participant_name":"demon-dr4go-5876",
-          "reference_number":"DD75728",
-          "slug":"demon-dr4go-5876",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+          "id":66746,
+          "country":"Egypt",
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":19396,
-        "participant_type":"single",
-        "match_id":118718,
+        "participant_id":66744,
+        "participant_type":"teams",
+        "match_id":121234,
         "side":"away",
-        "score":1,
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":19396,
+          "id":66744,
           "country":"Egypt",
-          "participant_name":"karim-ragab-2",
-          "reference_number":"KR87352",
-          "slug":"karim-ragab-2",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
+          "participant_name":"mosaab ibrahem ahmed",
+          "reference_number":"T256356",
+          "owner_id":242297,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -812,13 +776,13 @@ export const simpleSmallBracket = [
     ]
   },
   {
-    "id":118719,
-    "status":"To be played",
+    "id":121235,
+    "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6834,
+    "round_id":7290,
     "order":1,
-    "code":"nj7wxY7",
+    "code":"ktTctV2",
     "match_no":7,
     "start_at":null,
     "is_losers_match":false,
@@ -826,17 +790,16 @@ export const simpleSmallBracket = [
     "nextMatchId":null,
     "is_claimable":true,
     "home":{
-      "participant_id":127282,
-      "participant_type":"single",
-      "match_id":118719,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121235,
       "side":"home",
-      "score":null,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":127282,
-        "type":"single",
+        "participant_id":66679,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -844,27 +807,25 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":127282,
+        "id":66679,
         "country":"Egypt",
-        "participant_name":"MohamedAyman00",
-        "reference_number":"MO43307",
-        "slug":"mohamedayman00",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":141629,
-      "participant_type":"single",
-      "match_id":118719,
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121235,
       "side":"away",
-      "score":null,
-      "is_winner":false,
+      "score":2,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":141629,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -872,158 +833,45 @@ export const simpleSmallBracket = [
         ]
       },
       "original":{
-        "id":141629,
-        "country":"Iraq",
-        "participant_name":"demon-dr4go-5876",
-        "reference_number":"DD75728",
-        "slug":"demon-dr4go-5876",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+        "id":66746,
+        "country":"Egypt",
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":127282,
-        "participant_type":"single",
-        "match_id":118719,
-        "side":"home",
-        "score":null,
-        "is_winner":false,
-        "original":{
-          "id":127282,
-          "country":"Egypt",
-          "participant_name":"MohamedAyman00",
-          "reference_number":"MO43307",
-          "slug":"mohamedayman00",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
-        }
-      },
-      {
-        "participant_id":141629,
-        "participant_type":"single",
-        "match_id":118719,
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121235,
         "side":"away",
-        "score":null,
-        "is_winner":false,
+        "score":2,
+        "is_winner":true,
         "original":{
-          "id":141629,
-          "country":"Iraq",
-          "participant_name":"demon-dr4go-5876",
-          "reference_number":"DD75728",
-          "slug":"demon-dr4go-5876",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+          "id":66746,
+          "country":"Egypt",
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
-      }
-    ],
-    "claims":[
-
-    ]
-  },
-  {
-    "id":118720,
-    "status":"To be played",
-    "has_conflict":false,
-    "on_solution":false,
-    "round_id":6834,
-    "order":2,
-    "code":"ARAAChy",
-    "match_no":8,
-    "start_at":null,
-    "is_losers_match":false,
-    "publisher_match_code":null,
-    "nextMatchId":null,
-    "is_claimable":true,
-    "home":{
-      "participant_id":346361,
-      "participant_type":"single",
-      "match_id":118720,
-      "side":"home",
-      "score":null,
-      "is_winner":false,
-      "tournament_participant":{
-        "participant_id":346361,
-        "type":"single",
-        "participant_name":null,
-        "is_dummy":false,
-        "reference_number":null,
-        "supported_required_inputs":null,
-        "accounts":[
-
-        ]
       },
-      "original":{
-        "id":346361,
-        "country":"Egypt",
-        "participant_name":"mhmd-aat-4663",
-        "reference_number":"MA13733",
-        "slug":"mhmd-aat-4663",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
-      }
-    },
-    "away":{
-      "participant_id":19396,
-      "participant_type":"single",
-      "match_id":118720,
-      "side":"away",
-      "score":null,
-      "is_winner":false,
-      "tournament_participant":{
-        "participant_id":19396,
-        "type":"single",
-        "participant_name":null,
-        "is_dummy":false,
-        "reference_number":null,
-        "supported_required_inputs":null,
-        "accounts":[
-
-        ]
-      },
-      "original":{
-        "id":19396,
-        "country":"Egypt",
-        "participant_name":"karim-ragab-2",
-        "reference_number":"KR87352",
-        "slug":"karim-ragab-2",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
-      }
-    },
-    "participants":[
       {
-        "participant_id":346361,
-        "participant_type":"single",
-        "match_id":118720,
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121235,
         "side":"home",
-        "score":null,
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":346361,
+          "id":66679,
           "country":"Egypt",
-          "participant_name":"mhmd-aat-4663",
-          "reference_number":"MA13733",
-          "slug":"mhmd-aat-4663",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-2SRZMCGhX3C0Fsb.jpg"
-        }
-      },
-      {
-        "participant_id":19396,
-        "participant_type":"single",
-        "match_id":118720,
-        "side":"away",
-        "score":null,
-        "is_winner":false,
-        "original":{
-          "id":19396,
-          "country":"Egypt",
-          "participant_name":"karim-ragab-2",
-          "reference_number":"KR87352",
-          "slug":"karim-ragab-2",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-F-4.4213547579663E%2B20.jpg"
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1035,31 +883,30 @@ export const simpleSmallBracket = [
 
 export const smallBracket = [
   {
-    "id":118754,
+    "id":121229,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6840,
+    "round_id":7288,
     "order":1,
-    "code":"iPc7Ivl",
+    "code":"fe8pQ9L",
     "match_no":1,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"kB2usPA",
+    "nextMatchId":"7AGLQLj",
     "is_claimable":true,
     "home":{
-      "participant_id":155599,
-      "participant_type":"single",
-      "match_id":118754,
+      "participant_id":66865,
+      "participant_type":"teams",
+      "match_id":121229,
       "side":"home",
-      "score":3,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":155599,
-        "type":"single",
+        "participant_id":66865,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1067,27 +914,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":155599,
-        "country":"United States",
-        "participant_name":"ArticFox",
-        "reference_number":"AR84922",
-        "slug":"articfox",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "id":66865,
+        "country":"Egypt",
+        "participant_name":"mody",
+        "reference_number":"MO21506",
+        "owner_id":390629,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":305581,
-      "participant_type":"single",
-      "match_id":118754,
+      "participant_id":66680,
+      "participant_type":"teams",
+      "match_id":121229,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":305581,
-        "type":"single",
+        "participant_id":66680,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1095,48 +940,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":305581,
-        "country":"India",
-        "participant_name":"Artemis_X",
-        "reference_number":"AX67296",
-        "slug":"artemis-x",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "id":66680,
+        "country":"Egypt",
+        "participant_name":"Hunters",
+        "reference_number":"HU81392",
+        "owner_id":389955,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":155599,
-        "participant_type":"single",
-        "match_id":118754,
-        "side":"home",
-        "score":3,
+        "participant_id":66680,
+        "participant_type":"teams",
+        "match_id":121229,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":155599,
-          "country":"United States",
-          "participant_name":"ArticFox",
-          "reference_number":"AR84922",
-          "slug":"articfox",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "id":66680,
+          "country":"Egypt",
+          "participant_name":"Hunters",
+          "reference_number":"HU81392",
+          "owner_id":389955,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":305581,
-        "participant_type":"single",
-        "match_id":118754,
-        "side":"away",
-        "score":1,
+        "participant_id":66865,
+        "participant_type":"teams",
+        "match_id":121229,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":305581,
-          "country":"India",
-          "participant_name":"Artemis_X",
-          "reference_number":"AX67296",
-          "slug":"artemis-x",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "id":66865,
+          "country":"Egypt",
+          "participant_name":"mody",
+          "reference_number":"MO21506",
+          "owner_id":390629,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1145,31 +987,30 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118755,
+    "id":121230,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6840,
+    "round_id":7288,
     "order":2,
-    "code":"RjUZHRS",
+    "code":"0z2hs3T",
     "match_no":2,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"kB2usPA",
+    "nextMatchId":"7AGLQLj",
     "is_claimable":true,
     "home":{
-      "participant_id":240647,
-      "participant_type":"single",
-      "match_id":118755,
+      "participant_id":66839,
+      "participant_type":"teams",
+      "match_id":121230,
       "side":"home",
-      "score":2,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":240647,
-        "type":"single",
+        "participant_id":66839,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1177,27 +1018,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":240647,
-        "country":"United Kingdom",
-        "participant_name":"kinan-haj-6850",
-        "reference_number":"KH71737",
-        "slug":"kinan-haj-6850",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
+        "id":66839,
+        "country":"France",
+        "participant_name":"ROWAD",
+        "reference_number":"RO34683",
+        "owner_id":390487,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":157030,
-      "participant_type":"single",
-      "match_id":118755,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121230,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":157030,
-        "type":"single",
+        "participant_id":66679,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1205,48 +1044,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":157030,
+        "id":66679,
         "country":"Egypt",
-        "participant_name":"DoDzZ",
-        "reference_number":"D350184",
-        "slug":"dodzz",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":240647,
-        "participant_type":"single",
-        "match_id":118755,
-        "side":"home",
-        "score":2,
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121230,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":240647,
-          "country":"United Kingdom",
-          "participant_name":"kinan-haj-6850",
-          "reference_number":"KH71737",
-          "slug":"kinan-haj-6850",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
+          "id":66679,
+          "country":"Egypt",
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":157030,
-        "participant_type":"single",
-        "match_id":118755,
-        "side":"away",
-        "score":1,
+        "participant_id":66839,
+        "participant_type":"teams",
+        "match_id":121230,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":157030,
-          "country":"Egypt",
-          "participant_name":"DoDzZ",
-          "reference_number":"D350184",
-          "slug":"dodzz",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/Egypt.user.png"
+          "id":66839,
+          "country":"France",
+          "participant_name":"ROWAD",
+          "reference_number":"RO34683",
+          "owner_id":390487,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1255,31 +1091,30 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118756,
+    "id":121231,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6840,
+    "round_id":7288,
     "order":3,
-    "code":"uB6aGFr",
+    "code":"fyWZ9XM",
     "match_no":3,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"oekKMIn",
+    "nextMatchId":"2guKQNq",
     "is_claimable":true,
     "home":{
-      "participant_id":136581,
-      "participant_type":"single",
-      "match_id":118756,
+      "participant_id":66841,
+      "participant_type":"teams",
+      "match_id":121231,
       "side":"home",
-      "score":2,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":136581,
-        "type":"single",
+        "participant_id":66841,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1287,27 +1122,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":136581,
+        "id":66841,
         "country":"Egypt",
-        "participant_name":"DeathProfessor",
-        "reference_number":"DE22920",
-        "slug":"deathprofessor",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"Supporting 1907",
+        "reference_number":"NW15082",
+        "owner_id":390521,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":160831,
-      "participant_type":"single",
-      "match_id":118756,
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121231,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":160831,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1315,48 +1148,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":160831,
+        "id":66746,
         "country":"Egypt",
-        "participant_name":"yassin-tamer-2687",
-        "reference_number":"YT67680",
-        "slug":"yassin-tamer-2687",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-T7x45wbkm2CoFeM.jpg"
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":136581,
-        "participant_type":"single",
-        "match_id":118756,
-        "side":"home",
-        "score":2,
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121231,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":136581,
+          "id":66746,
           "country":"Egypt",
-          "participant_name":"DeathProfessor",
-          "reference_number":"DE22920",
-          "slug":"deathprofessor",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":160831,
-        "participant_type":"single",
-        "match_id":118756,
-        "side":"away",
-        "score":1,
+        "participant_id":66841,
+        "participant_type":"teams",
+        "match_id":121231,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":160831,
+          "id":66841,
           "country":"Egypt",
-          "participant_name":"yassin-tamer-2687",
-          "reference_number":"YT67680",
-          "slug":"yassin-tamer-2687",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-T7x45wbkm2CoFeM.jpg"
+          "participant_name":"Supporting 1907",
+          "reference_number":"NW15082",
+          "owner_id":390521,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1365,31 +1195,30 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118757,
+    "id":121232,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6840,
+    "round_id":7288,
     "order":4,
-    "code":"7G2y074",
+    "code":"FRdZKfE",
     "match_no":4,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"oekKMIn",
+    "nextMatchId":"2guKQNq",
     "is_claimable":true,
     "home":{
-      "participant_id":104708,
-      "participant_type":"single",
-      "match_id":118757,
+      "participant_id":66827,
+      "participant_type":"teams",
+      "match_id":121232,
       "side":"home",
-      "score":5,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":104708,
-        "type":"single",
+        "participant_id":66827,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1397,27 +1226,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":104708,
-        "country":"Bosnia & Herzegovina",
-        "participant_name":"ibisev1ch",
-        "reference_number":"I389642",
-        "slug":"ibisev1ch",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
+        "id":66827,
+        "country":"France",
+        "participant_name":"THE BOYZ",
+        "reference_number":"2W71063",
+        "owner_id":390463,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":200964,
-      "participant_type":"single",
-      "match_id":118757,
+      "participant_id":66744,
+      "participant_type":"teams",
+      "match_id":121232,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":200964,
-        "type":"single",
+        "participant_id":66744,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1425,48 +1252,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":200964,
-        "country":"Bahrain",
-        "participant_name":"ol8-ol8",
-        "reference_number":"OO53377",
-        "slug":"ol8-ol8",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-google-2.3018196742269E%2B25.jpg"
+        "id":66744,
+        "country":"Egypt",
+        "participant_name":"mosaab ibrahem ahmed",
+        "reference_number":"T256356",
+        "owner_id":242297,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":104708,
-        "participant_type":"single",
-        "match_id":118757,
-        "side":"home",
-        "score":5,
+        "participant_id":66744,
+        "participant_type":"teams",
+        "match_id":121232,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":104708,
-          "country":"Bosnia & Herzegovina",
-          "participant_name":"ibisev1ch",
-          "reference_number":"I389642",
-          "slug":"ibisev1ch",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
+          "id":66744,
+          "country":"Egypt",
+          "participant_name":"mosaab ibrahem ahmed",
+          "reference_number":"T256356",
+          "owner_id":242297,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":200964,
-        "participant_type":"single",
-        "match_id":118757,
-        "side":"away",
-        "score":1,
+        "participant_id":66827,
+        "participant_type":"teams",
+        "match_id":121232,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":200964,
-          "country":"Bahrain",
-          "participant_name":"ol8-ol8",
-          "reference_number":"OO53377",
-          "slug":"ol8-ol8",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-google-2.3018196742269E%2B25.jpg"
+          "id":66827,
+          "country":"France",
+          "participant_name":"THE BOYZ",
+          "reference_number":"2W71063",
+          "owner_id":390463,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1475,31 +1299,30 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118758,
+    "id":121233,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6841,
+    "round_id":7289,
     "order":1,
-    "code":"kB2usPA",
+    "code":"7AGLQLj",
     "match_no":5,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"8G9ClAd",
+    "nextMatchId":"ktTctV2",
     "is_claimable":true,
     "home":{
-      "participant_id":155599,
-      "participant_type":"single",
-      "match_id":118758,
+      "participant_id":66680,
+      "participant_type":"teams",
+      "match_id":121233,
       "side":"home",
-      "score":4,
-      "is_winner":true,
+      "score":0,
+      "is_winner":false,
       "tournament_participant":{
-        "participant_id":155599,
-        "type":"single",
+        "participant_id":66680,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1507,27 +1330,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":155599,
-        "country":"United States",
-        "participant_name":"ArticFox",
-        "reference_number":"AR84922",
-        "slug":"articfox",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "id":66680,
+        "country":"Egypt",
+        "participant_name":"Hunters",
+        "reference_number":"HU81392",
+        "owner_id":389955,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":240647,
-      "participant_type":"single",
-      "match_id":118758,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121233,
       "side":"away",
       "score":1,
-      "is_winner":false,
+      "is_winner":true,
       "tournament_participant":{
-        "participant_id":240647,
-        "type":"single",
+        "participant_id":66679,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1535,48 +1356,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":240647,
-        "country":"United Kingdom",
-        "participant_name":"kinan-haj-6850",
-        "reference_number":"KH71737",
-        "slug":"kinan-haj-6850",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
+        "id":66679,
+        "country":"Egypt",
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":155599,
-        "participant_type":"single",
-        "match_id":118758,
-        "side":"home",
-        "score":4,
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121233,
+        "side":"away",
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":155599,
-          "country":"United States",
-          "participant_name":"ArticFox",
-          "reference_number":"AR84922",
-          "slug":"articfox",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "id":66679,
+          "country":"Egypt",
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":240647,
-        "participant_type":"single",
-        "match_id":118758,
-        "side":"away",
-        "score":1,
+        "participant_id":66680,
+        "participant_type":"teams",
+        "match_id":121233,
+        "side":"home",
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":240647,
-          "country":"United Kingdom",
-          "participant_name":"kinan-haj-6850",
-          "reference_number":"KH71737",
-          "slug":"kinan-haj-6850",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
+          "id":66680,
+          "country":"Egypt",
+          "participant_name":"Hunters",
+          "reference_number":"HU81392",
+          "owner_id":389955,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1585,31 +1403,30 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118759,
+    "id":121234,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6841,
+    "round_id":7289,
     "order":2,
-    "code":"oekKMIn",
+    "code":"2guKQNq",
     "match_no":6,
     "start_at":null,
     "is_losers_match":false,
     "publisher_match_code":null,
-    "nextMatchId":"8G9ClAd",
+    "nextMatchId":"ktTctV2",
     "is_claimable":true,
     "home":{
-      "participant_id":136581,
-      "participant_type":"single",
-      "match_id":118759,
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121234,
       "side":"home",
-      "score":3,
+      "score":1,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":136581,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1617,27 +1434,25 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":136581,
+        "id":66746,
         "country":"Egypt",
-        "participant_name":"DeathProfessor",
-        "reference_number":"DE22920",
-        "slug":"deathprofessor",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "away":{
-      "participant_id":104708,
-      "participant_type":"single",
-      "match_id":118759,
+      "participant_id":66744,
+      "participant_type":"teams",
+      "match_id":121234,
       "side":"away",
-      "score":1,
+      "score":0,
       "is_winner":false,
       "tournament_participant":{
-        "participant_id":104708,
-        "type":"single",
+        "participant_id":66744,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1645,48 +1460,45 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":104708,
-        "country":"Bosnia & Herzegovina",
-        "participant_name":"ibisev1ch",
-        "reference_number":"I389642",
-        "slug":"ibisev1ch",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
+        "id":66744,
+        "country":"Egypt",
+        "participant_name":"mosaab ibrahem ahmed",
+        "reference_number":"T256356",
+        "owner_id":242297,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":136581,
-        "participant_type":"single",
-        "match_id":118759,
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121234,
         "side":"home",
-        "score":3,
+        "score":1,
         "is_winner":true,
         "original":{
-          "id":136581,
+          "id":66746,
           "country":"Egypt",
-          "participant_name":"DeathProfessor",
-          "reference_number":"DE22920",
-          "slug":"deathprofessor",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       },
       {
-        "participant_id":104708,
-        "participant_type":"single",
-        "match_id":118759,
+        "participant_id":66744,
+        "participant_type":"teams",
+        "match_id":121234,
         "side":"away",
-        "score":1,
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":104708,
-          "country":"Bosnia & Herzegovina",
-          "participant_name":"ibisev1ch",
-          "reference_number":"I389642",
-          "slug":"ibisev1ch",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
+          "id":66744,
+          "country":"Egypt",
+          "participant_name":"mosaab ibrahem ahmed",
+          "reference_number":"T256356",
+          "owner_id":242297,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
@@ -1695,13 +1507,13 @@ export const smallBracket = [
     ]
   },
   {
-    "id":118760,
+    "id":121235,
     "status":"Finished",
     "has_conflict":false,
     "on_solution":false,
-    "round_id":6842,
+    "round_id":7290,
     "order":1,
-    "code":"8G9ClAd",
+    "code":"ktTctV2",
     "match_no":7,
     "start_at":null,
     "is_losers_match":false,
@@ -1709,17 +1521,42 @@ export const smallBracket = [
     "nextMatchId":null,
     "is_claimable":true,
     "home":{
-      "participant_id":155599,
-      "participant_type":"single",
-      "match_id":118760,
+      "participant_id":66679,
+      "participant_type":"teams",
+      "match_id":121235,
       "side":"home",
+      "score":0,
+      "is_winner":false,
+      "tournament_participant":{
+        "participant_id":66679,
+        "type":"teams",
+        "participant_name":null,
+        "reference_number":null,
+        "supported_required_inputs":null,
+        "accounts":[
+
+        ]
+      },
+      "original":{
+        "id":66679,
+        "country":"Egypt",
+        "participant_name":"seifyoussef",
+        "reference_number":"SE52481",
+        "owner_id":389953,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
+      }
+    },
+    "away":{
+      "participant_id":66746,
+      "participant_type":"teams",
+      "match_id":121235,
+      "side":"away",
       "score":2,
       "is_winner":true,
       "tournament_participant":{
-        "participant_id":155599,
-        "type":"single",
+        "participant_id":66746,
+        "type":"teams",
         "participant_name":null,
-        "is_dummy":false,
         "reference_number":null,
         "supported_required_inputs":null,
         "accounts":[
@@ -1727,193 +1564,52 @@ export const smallBracket = [
         ]
       },
       "original":{
-        "id":155599,
-        "country":"United States",
-        "participant_name":"ArticFox",
-        "reference_number":"AR84922",
-        "slug":"articfox",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
-      }
-    },
-    "away":{
-      "participant_id":136581,
-      "participant_type":"single",
-      "match_id":118760,
-      "side":"away",
-      "score":1,
-      "is_winner":false,
-      "tournament_participant":{
-        "participant_id":136581,
-        "type":"single",
-        "participant_name":null,
-        "is_dummy":false,
-        "reference_number":null,
-        "supported_required_inputs":null,
-        "accounts":[
-
-        ]
-      },
-      "original":{
-        "id":136581,
+        "id":66746,
         "country":"Egypt",
-        "participant_name":"DeathProfessor",
-        "reference_number":"DE22920",
-        "slug":"deathprofessor",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+        "participant_name":"cyper vip",
+        "reference_number":"LK47077",
+        "owner_id":171065,
+        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
       }
     },
     "participants":[
       {
-        "participant_id":155599,
-        "participant_type":"single",
-        "match_id":118760,
-        "side":"home",
+        "participant_id":66746,
+        "participant_type":"teams",
+        "match_id":121235,
+        "side":"away",
         "score":2,
         "is_winner":true,
         "original":{
-          "id":155599,
-          "country":"United States",
-          "participant_name":"ArticFox",
-          "reference_number":"AR84922",
-          "slug":"articfox",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
-        }
-      },
-      {
-        "participant_id":136581,
-        "participant_type":"single",
-        "match_id":118760,
-        "side":"away",
-        "score":1,
-        "is_winner":false,
-        "original":{
-          "id":136581,
+          "id":66746,
           "country":"Egypt",
-          "participant_name":"DeathProfessor",
-          "reference_number":"DE22920",
-          "slug":"deathprofessor",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/defaults\/default.png"
+          "participant_name":"cyper vip",
+          "reference_number":"LK47077",
+          "owner_id":171065,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
-      }
-    ],
-    "claims":[
-
-    ]
-  },
-  {
-    "id":118761,
-    "status":"Finished",
-    "has_conflict":false,
-    "on_solution":false,
-    "round_id":6842,
-    "order":2,
-    "code":"gStwrsc",
-    "match_no":8,
-    "start_at":null,
-    "is_losers_match":false,
-    "publisher_match_code":null,
-    "nextMatchId":null,
-    "is_claimable":true,
-    "home":{
-      "participant_id":240647,
-      "participant_type":"single",
-      "match_id":118761,
-      "side":"home",
-      "score":4,
-      "is_winner":true,
-      "tournament_participant":{
-        "participant_id":240647,
-        "type":"single",
-        "participant_name":null,
-        "is_dummy":false,
-        "reference_number":null,
-        "supported_required_inputs":null,
-        "accounts":[
-
-        ]
       },
-      "original":{
-        "id":240647,
-        "country":"United Kingdom",
-        "participant_name":"kinan-haj-6850",
-        "reference_number":"KH71737",
-        "slug":"kinan-haj-6850",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
-      }
-    },
-    "away":{
-      "participant_id":104708,
-      "participant_type":"single",
-      "match_id":118761,
-      "side":"away",
-      "score":1,
-      "is_winner":false,
-      "tournament_participant":{
-        "participant_id":104708,
-        "type":"single",
-        "participant_name":null,
-        "is_dummy":false,
-        "reference_number":null,
-        "supported_required_inputs":null,
-        "accounts":[
-
-        ]
-      },
-      "original":{
-        "id":104708,
-        "country":"Bosnia & Herzegovina",
-        "participant_name":"ibisev1ch",
-        "reference_number":"I389642",
-        "slug":"ibisev1ch",
-        "is_premium":false,
-        "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
-      }
-    },
-    "participants":[
       {
-        "participant_id":240647,
-        "participant_type":"single",
-        "match_id":118761,
+        "participant_id":66679,
+        "participant_type":"teams",
+        "match_id":121235,
         "side":"home",
-        "score":4,
-        "is_winner":true,
-        "original":{
-          "id":240647,
-          "country":"United Kingdom",
-          "participant_name":"kinan-haj-6850",
-          "reference_number":"KH71737",
-          "slug":"kinan-haj-6850",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-DcrmJc5Au4RccQt.jpg"
-        }
-      },
-      {
-        "participant_id":104708,
-        "participant_type":"single",
-        "match_id":118761,
-        "side":"away",
-        "score":1,
+        "score":0,
         "is_winner":false,
         "original":{
-          "id":104708,
-          "country":"Bosnia & Herzegovina",
-          "participant_name":"ibisev1ch",
-          "reference_number":"I389642",
-          "slug":"ibisev1ch",
-          "is_premium":false,
-          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/users\/avatars\/Avatar-G-2.2974420093904E%2B25.jpg"
+          "id":66679,
+          "country":"Egypt",
+          "participant_name":"seifyoussef",
+          "reference_number":"SE52481",
+          "owner_id":389953,
+          "avatar":"https:\/\/gbarena-development.s3.amazonaws.com\/teams\/avatars\/team-default.jpg"
         }
       }
     ],
     "claims":[
 
     ]
-  },
+  }
 ]
 export const largeBracket = [
   {

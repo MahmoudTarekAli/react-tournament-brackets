@@ -5,21 +5,20 @@ import { defaultStyle, getCalculatedStyles } from '../settings';
 import { sortTeamsSeedOrder } from './match-functions';
 
 function Match({
-                 rowIndex,
-                 columnIndex,
-                 match,
+  rowIndex,
+  columnIndex,
+  match,
 
-                 previousBottomMatch = null,
-                 teams,
-                 topText,
-                 bottomText,
-                 style = defaultStyle,
-                 matchComponent: MatchComponent,
-                 onMatchClick,
-                 onPartyClick,
-                 ...rest
-               }) {
-
+  previousBottomMatch = null,
+  teams,
+  topText,
+  bottomText,
+  style = defaultStyle,
+  matchComponent: MatchComponent,
+  onMatchClick,
+  onPartyClick,
+  ...rest
+}) {
   const {
     state: { hoveredPartyId },
     dispatch,
@@ -27,8 +26,15 @@ function Match({
   const computedStyles = getCalculatedStyles(style);
   const { width = 300, boxHeight = 70, connectorColor } = computedStyles;
   const sortedTeams = teams.sort(sortTeamsSeedOrder(previousBottomMatch));
-  const topParty = sortedTeams?.[0] ? sortedTeams[0] : {};
-  const bottomParty = sortedTeams?.[1] ? sortedTeams[1] : {};
+  const topParty =
+    sortedTeams?.[0] && sortedTeams[0].side === 'home'
+      ? sortedTeams[0]
+      : sortedTeams.find(team => team.side === 'home') || {};
+
+  const bottomParty =
+    sortedTeams?.[1] && sortedTeams[1].side === 'away'
+      ? sortedTeams[1]
+      : sortedTeams.find(team => team.side === 'away') || {};
 
   if (sortedTeams?.length < 2) {
     if (sortedTeams?.[0]?.side === 'home') {

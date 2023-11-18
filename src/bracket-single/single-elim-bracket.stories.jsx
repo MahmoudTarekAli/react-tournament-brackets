@@ -31,7 +31,7 @@ const Template = ({ ...args }) => {
   const finalHeight = Math.max(height - 100, 500);
   return (
     <SingleElimBracketLeaderboard
-      // currentRound={4}
+      currentRound={'3'}
       svgWrapper={({ children, ...props }) => (
         <StyledSvgViewer width={finalWidth} height={finalHeight} {...props}>
           {children}
@@ -49,7 +49,7 @@ Bracket.args = {
 };
 export const SmallBracket = Template.bind({});
 SmallBracket.args = {
-  matches: smallBracket,
+  matches: simpleSmallBracket,
   matchComponent: Match,
 };
 export const WalkOverBracket = Template.bind({});
