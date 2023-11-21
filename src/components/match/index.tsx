@@ -10,7 +10,15 @@ import {
   Wrapper,
   Anchor,
 } from './styles';
+
 const formatStartDate = startDate => {
+  let clientTimezoneOffset = new Date().getTimezoneOffset() / 60;
+  if (clientTimezoneOffset > 0) {
+    clientTimezoneOffset *= -1;
+  } else {
+    // @ts-ignore
+    clientTimezoneOffset = `+${clientTimezoneOffset * -1}`;
+  }
   if (startDate) {
     const originalDate = new Date(startDate);
     const formattedDate = originalDate.toLocaleDateString('en-US', {
@@ -24,7 +32,7 @@ const formatStartDate = startDate => {
       minute: 'numeric',
     });
 
-    return `${formattedDate} : ${formattedTime}`;
+    return `${formattedDate} : ${formattedTime} (GMT ${clientTimezoneOffset})`;
   }
   return null;
 };
@@ -48,7 +56,7 @@ function Match({
     <Wrapper>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         {match.order === 2 && !match.nextMatchId ? <TopText style={{ color: '#CD7F32' }}>{'3rd/4th Match'}</TopText> :
-          <TopText>#{match?.match_no} {formatStartDate(match.start_at)}</TopText>}
+          <TopText style={{ fontSize: '12px', color: 'white'}}>#{match?.match_no} {formatStartDate(match.start_at)}</TopText>}
         {(match.href || typeof onMatchClick === 'function') && (
           <Anchor
             href={match.href}
