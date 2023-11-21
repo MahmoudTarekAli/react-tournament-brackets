@@ -5,14 +5,14 @@ import { calculatePositionOfMatchUpperBracket } from './calculate-match-position
 import ConnectorsUpper from './upper-connectors';
 
 const UpperBracket = ({
-  columns,
-  calculatedStyles,
-  gameHeight,
-  gameWidth,
-  onMatchClick,
-  onPartyClick,
-  matchComponent,
-}) => {
+                        columns,
+                        calculatedStyles,
+                        gameHeight,
+                        gameWidth,
+                        onMatchClick,
+                        onPartyClick,
+                        matchComponent,
+                      }) => {
   const { canvasPadding, columnWidth, rowHeight, roundHeader } =
     calculatedStyles;
   return columns.map((matchesColumn, columnIndex) =>
@@ -24,14 +24,15 @@ const UpperBracket = ({
           canvasPadding,
           columnWidth,
           rowHeight,
-        }
+        },
       );
       const previousBottomPosition = (rowIndex + 1) * 2 - 1;
       const { previousTopMatch, previousBottomMatch } = getPreviousMatches(
         columnIndex,
         columns,
-        previousBottomPosition
+        previousBottomPosition,
       );
+
       return (
         <>
           {columnIndex !== 0 && (
@@ -76,7 +77,7 @@ const UpperBracket = ({
           </g>
         </>
       );
-    })
+    }),
   );
 };
 export default UpperBracket;

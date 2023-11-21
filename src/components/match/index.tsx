@@ -10,6 +10,24 @@ import {
   Wrapper,
   Anchor,
 } from './styles';
+const formatStartDate = startDate => {
+  if (startDate) {
+    const originalDate = new Date(startDate);
+    const formattedDate = originalDate.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    });
+
+    const formattedTime = originalDate.toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: 'numeric',
+    });
+
+    return `${formattedDate} : ${formattedTime}`;
+  }
+  return null;
+};
 
 function Match({
                  bottomHovered,
@@ -29,7 +47,8 @@ function Match({
   return (
     <Wrapper>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        {match.order === 2 && !match.nextMatchId ? <TopText style={{ color: '#CD7F32' }}>{'3rd/4th Match'}</TopText> : <TopText>#{match?.match_no}</TopText>}
+        {match.order === 2 && !match.nextMatchId ? <TopText style={{ color: '#CD7F32' }}>{'3rd/4th Match'}</TopText> :
+          <TopText>#{match?.match_no} {formatStartDate(match.start_at)}</TopText>}
         {(match.href || typeof onMatchClick === 'function') && (
           <Anchor
             href={match.href}

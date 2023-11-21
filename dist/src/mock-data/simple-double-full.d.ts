@@ -8,7 +8,7 @@ declare const _default: {
         order: number;
         code: string;
         match_no: number;
-        start_at: any;
+        start_at: string;
         publisher_match_code: any;
         is_losers_match: boolean;
         nextMatchId: string;

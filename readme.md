@@ -288,7 +288,6 @@ _For more examples, please refer to the [Storybook][demo-url]_
 - Match / Participant States are defined in the exported constant `MATCH_STATES`
 ```js
 import { MATCH_STATES } from '@g-loot/react-tournament-brackets';
-console.log(MATCH_STATES);
 // {
 //   PLAYED: 'PLAYED',
 //   NO_SHOW: 'NO_SHOW',

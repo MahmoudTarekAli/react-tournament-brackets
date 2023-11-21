@@ -27,6 +27,7 @@ function Match({
   const computedStyles = getCalculatedStyles(style);
   const { width = 300, boxHeight = 70, connectorColor } = computedStyles;
   const sortedTeams = teams.sort(sortTeamsSeedOrder(previousBottomMatch));
+  const originalDate = new Date('2023-11-21T14:38:36Z');
   const topParty =
     sortedTeams?.[0] && sortedTeams[0].side === 'home'
       ? sortedTeams[0]
