@@ -197,23 +197,23 @@ const SingleEliminationBracket = ({
                 })
               )}
             </g>
-            <g>
-              <MatchWrapper
-                x={thirdFourthPosition.x}
-                y={thirdFourthPosition.y}
-                key={third.code}
-                rowIndex={0}
-                columnIndex={0}
-                match={third}
-                topText=""
-                bottomText={third.name}
-                teams={third.participants}
-                onMatchClick={onMatchClick}
-                onPartyClick={onPartyClick}
-                style={style}
-                matchComponent={matchComponent}
-              />
-            </g>
+            {/*<g>*/}
+            {/*  <MatchWrapper*/}
+            {/*    x={thirdFourthPosition.x}*/}
+            {/*    y={thirdFourthPosition.y}*/}
+            {/*    key={third.code}*/}
+            {/*    rowIndex={0}*/}
+            {/*    columnIndex={0}*/}
+            {/*    match={third}*/}
+            {/*    topText=""*/}
+            {/*    bottomText={third.name}*/}
+            {/*    teams={third.participants}*/}
+            {/*    onMatchClick={onMatchClick}*/}
+            {/*    onPartyClick={onPartyClick}*/}
+            {/*    style={style}*/}
+            {/*    matchComponent={matchComponent}*/}
+            {/*  />*/}
+            {/*</g>*/}
           </MatchContextProvider>
         </svg>
       </SvgWrapper>

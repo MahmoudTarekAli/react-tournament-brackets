@@ -44,7 +44,7 @@ const Template = ({ ...args }) => {
 
 export const Bracket = Template.bind({});
 Bracket.args = {
-  matches: simpleBracket,
+  matches: smallBracket,
   matchComponent: Match,
 };
 export const SmallBracket = Template.bind({});

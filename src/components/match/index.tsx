@@ -37,6 +37,7 @@ const formatStartDate = startDate => {
   return null;
 };
 
+
 function Match({
                  bottomHovered,
                  bottomParty,
@@ -54,9 +55,10 @@ function Match({
                }: MatchComponentProps) {
   return (
     <Wrapper>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', gap: '5px', alignItems: 'center' }}>
         {match.order === 2 && !match.nextMatchId ? <TopText style={{ color: '#CD7F32' }}>{'3rd/4th Match'}</TopText> :
-          <TopText style={{ fontSize: '12px', color: 'white'}}>#{match?.match_no} {formatStartDate(match.start_at)}</TopText>}
+          <TopText style={{ fontSize: '12px', color: 'gold' }}>#{match?.match_no}</TopText>} <TopText
+        style={{ fontSize: '12px', color: 'lightgrey'}}>  {formatStartDate(match.start_at)}</TopText>
         {(match.href || typeof onMatchClick === 'function') && (
           <Anchor
             href={match.href}

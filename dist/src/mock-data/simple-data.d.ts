@@ -122,11 +122,10 @@ export declare const smallBracket: {
     on_solution: boolean;
     round_id: number;
     order: number;
+    start_at: any;
     code: string;
     match_no: number;
-    start_at: any;
     is_losers_match: boolean;
-    publisher_match_code: any;
     nextMatchId: string;
     is_claimable: boolean;
     home: {
@@ -141,7 +140,14 @@ export declare const smallBracket: {
             type: string;
             participant_name: any;
             reference_number: any;
-            supported_required_inputs: any;
+            supported_required_inputs: {
+                key: string;
+                placeholder: string;
+                category: string;
+                value: string;
+                game_id: number;
+                platform_id: any;
+            }[];
             accounts: any[];
         };
         original: {
@@ -165,7 +171,14 @@ export declare const smallBracket: {
             type: string;
             participant_name: any;
             reference_number: any;
-            supported_required_inputs: any;
+            supported_required_inputs: {
+                key: string;
+                placeholder: string;
+                category: string;
+                value: string;
+                game_id: number;
+                platform_id: any;
+            }[];
             accounts: any[];
         };
         original: {
@@ -193,7 +206,28 @@ export declare const smallBracket: {
             avatar: string;
         };
     }[];
-    claims: any[];
+    claims: {
+        id: number;
+        claimer_id: number;
+        screenshot: string;
+        score_home: number;
+        absent_id: any;
+        score_away: number;
+        side: string;
+        match_id: number;
+        screenShots: any;
+        type: string;
+        note: any;
+        created_at: string;
+        updated_at: string;
+        claimer: {
+            id: number;
+            username: string;
+            avatar: string;
+            slug: string;
+        };
+        absent: any;
+    }[];
 }[];
 export declare const largeBracket: {
     id: number;
